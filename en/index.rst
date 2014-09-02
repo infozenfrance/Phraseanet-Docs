@@ -33,12 +33,12 @@ beginning.
 .. toctree::
     :maxdepth: 1
 
-    Contrib/index
-    Glossary
-    Devel/index
-    User/index
     Admin/index
-
+    User/index
+    Devel/index
+    FAQ/index
+    Glossary
+    Contrib/index
 
 Need help?
 ----------
