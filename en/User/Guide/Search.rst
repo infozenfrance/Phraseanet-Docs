@@ -1,21 +1,21 @@
-﻿Search for media
-================
+﻿Search for records
+==================
 .. toctree::
     :maxdepth: 3
 
 .. topic:: The essential
 
-	The media searches in *Phraseanet* are made through a full text search
-	engine that works just like a standard search engine.
+	The media and stories searches in *Phraseanet* are made through a full text
+	search engine that works just like a standard search engine.
 
-	Combined with common search operators, these searches are more relevant even
-	if the indexation quality is paramount.
-
+	Combined with common search operators, these searches are more relevant.
     Extended searches can be made with other less used operators. It is also
 	possible to search in specific fields if needed.
 
-	If the Thesaurus is activated, the search and review of the results can be
+	If a Thesaurus is activated, the search and review of the results can be
 	greatly enhanced.
+	
+	The indexation quality is still the dominating factor.
 
 Full text search
 ----------------
@@ -24,12 +24,12 @@ Full text search
 depending on the information contained in the documentary fields of their
 descriptive note.
 
-This search technique if widely spread on the web search engines and the
-operating mode in *Phraseanet* is likely.
-
-By default, the search is on Phraseanet bases and collections documents
+By default, **the search is on Phraseanet bases and collections documents**
 accessible by the user and the media displayed are the result of a 
-:doc:`customizable introduction question <CustomizeInterface>`. 
+:doc:`customizable introduction question <Customize>`. 
+
+.. image:: ../../images/Rechercheavancee1.jpg
+    :align: center
 
 A set of radio buttons allows to choose if the search is on documents or stories
 In a search on stories, the search is on the indexation sheet of the stories.
@@ -51,7 +51,7 @@ To search :
 The results are displayed in the display area. The relevance depends on the
 indexation quality of the media and the search query.
 The number of results per page is customizable. Refer to the page
-:doc:`Customize the interface <CustomizeInterface>` for more information.
+:doc:`Customize the interface <Customize>` for more information.
 
 By default, the operator between two terms is the boolean operator **AND**. It
 is therefore not necessary to type it.

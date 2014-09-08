@@ -6,20 +6,10 @@ Users Management
 
 .. topic:: The essential
 
-    **Available for users who have the users management rights**, the users 
-	interface allows to manage the users list saved in the Phraseanet
-	application and to give them some rights.
+    Available for users who have the users management rights, the users section
+	allows to manage the subscription, the rights and information on the users.
 
-The *Users* interface allows to :
-
-* Create new users
-* Validate users registration's requests
-* Manage users rights
-* Create templates applicable to users
-* Set a guest access with specific rights
-
-By default, the interface displays the list of users who are referenced on 
-Phraseanet.
+Click on the Users section to go to the users management interface.
 
 .. image:: ../../images/General-Administration.jpg
     :align: center
@@ -27,36 +17,19 @@ Phraseanet.
 Concepts related to users and their rights
 ------------------------------------------
 
-In Phraseanet, if a user does not see a function, it is certainly because he
-does not have the access rights for this function.
-
-**For example**, if a user does not have the rights to access to a collection, 
-he will not see the collection and might never know that this collection exist.
-
-**This is also true for the interfaces** : some users might have access to some
-specific modules or features dedicated to consultation.
-Administrators, can have access to more interfaces (such as *Administration*,
-*Report*, *Thesaurus* or *Upload*).
-
-Finally, **it is not possible for a user with users management rights to give 
-more rights than he has himself**.
+In Phraseanet, if a user does not see a function or section, it is certainly
+because he does not have the required access rights.
+Also, it is not possible for a user to give more rights than he has himself when
+he is validating a subscription or modifying rights.
 
 .. note::
 
     A user who have no allocated rights is a ghost user.
     He is recognizable by a ghost icon in the users list.
 
-.. image:: ../../images/Administration-ghostuser.jpg
-    :align: center
+    .. image:: ../../images/Administration-utilisateurfantome.jpg
+        :align: center
 
-Sort existing users
--------------------
-
-It is possible to sort the users list by criteria such as the identifier,
-the family name/first name, email, country or the company.
-
-.. image:: ../../images/General-Administration-sort.jpg
-    :align: center
 
 Create, modify, remove a user
 -----------------------------
@@ -64,32 +37,17 @@ Create, modify, remove a user
 Create a new user
 *****************
 
-Click on the button  **New user**.
+* Click on the button  **New user**.
+* Enter the e-mail of the new user and click on  **Create a user**.
+* Grant rights to the created user
 
-.. image:: ../../images/Administration-newuser1.jpg
-    :align: center
+.. seealso::
 
-An overlay window opens.
+    :ref:`Refer to the Rights edition section<User-Rights>`.
 
-Enter the e-mail of the new user and click on  **Create a user**.
-
-.. image:: ../../images/Administration-newuser2.jpg
-    :align: center
-
-The window of users rights management window for the created user opens.
-
-.. image:: ../../images/Administration-newuser3.jpg
-    :align: center
-
-To know how to manage the user's rights, refer to the section `Rights edition`_.
-
-To edit information relating to the user's details, click on the tab
+* To edit information relating to the user's details, click on the tab
  **Information** then edit the proposed form.
-
-.. image:: ../../images/Administration-newuser4.jpg
-    :align: center
-
-Implement the changes and click on the the button **Validate**.
+* Apply the changes by clicking on the **Validate** button.
 
 .. note::
 
@@ -99,162 +57,146 @@ Implement the changes and click on the the button **Validate**.
 Modify the user's rights
 ************************
 
-To modify the rights or information of a tool, double click on the user's name.
-
-For more information relating to the user's rights, refer to section
-`Edition rights`_.
+* Double click on the username in the list
+* Edit then validate the form
 
 Delete a user
 *************
 
-To delete a user from Phraseanet, select the user in the list and click on the
-button **Delete**.
+* Select a user in the list
+* Click on Delete
 
-Create users templates
-----------------------
+Sort existing users
+-------------------
 
-It is possible to create templates and apply them to one or several users.
-These users will have the same rights as the template.
+It is possible to sort the users list by criteria such as the identifier,
+the family name/first name, email, country or the company.
 
+Users templates
+---------------
+
+The users templates allows to apply the same rights on one or several users.
+In the users list, a template is marked with an **M** icon.
+
+.. image:: ../../images/Administration-modeleutilisateur.jpg
+    :align: center
+
+Users templates creation
+************************
+
+* Click on **New template**
+* Enter a name for the template then validate the form
+* Edit the rights of the new template then validate the form
+	
 .. note::
 
     Templates belong to users who created them. They will not be visible by the 
 	other administrators.
 
-In the user's list, a template is recognizable by the symbol **M**.
+Apply templates to users
+************************
 
-.. image:: ../../images/Administration-usertemplate.jpg
+It is possible to apply templates to one or more users.
+
+* Select the users
+* Choose the template to apply in the templates view
+* Click on Apply
+
+.. image:: ../../images/Administration-appliquermodele.jpg
     :align: center
+	
+An alert window allows to choose an application option for the template : 
 
-To create a user's template, click on **New template**.
-
-.. image:: ../../images/Administration-Bar-template.jpg
-    :align: center
-
-An overlay window displays a date entry form.
-
-.. image:: ../../images/Administration-template1.jpg
-    :align: center
-
-Give a name to the new template then validate the form.
-
-A window opens and displays the edition **Rights** form to edit the rights of 
-this new template.
-
-.. image:: ../../images/Administration-edittemplate.jpg
-    :align: center
-
-Set the template, then validate the form.
-
-It is possible to link several users with a template and manage collectively the 
-rights of many users through the templates.
-
-.. image:: ../../images/Administration-applytemplate.jpg
-    :align: center
+* **Apply the template** : the rights of the template are added to the existing
+  rights
+* **Reset and apply the template** : the rights are reset then applied to the
+  user
 
 The guest access
 ----------------
 
-**The guest access** can be set up in Phraseanet, if desired.
-It allows to have an access (even temporary) to the application for users who 
- are not registered in the system.
+The guest access can be set up in Phraseanet, if desired. It allows to give 
+access to the media assets to persons not registered in the system.
 
-To set up the guest access, click on the link **Guest access settings**.
+To set up the guest access :
 
-.. image:: ../../images/Administration-Bar-guest.jpg
+* Click on the link **Guest access settings**.
+
+.. image:: ../../images/Administration-Barre-invite.jpg
     :align: center
 
-The guest access rights can be defined in this tab.
+* Edit the rights of the guest account then validate the form
 
-.. image:: ../../images/Administration-setguest.jpg
-    :align: center
+As a right is activated, the Guest access link is on the home page of the
+application.
+
+.. _User-Rights:
 
 Edition Rights
 --------------
 
-The edition of the rights concerns the users as well as the templates.
+The rights edition concerns the users as well as the templates.
 To display the rights edition form of a user or a template, double click on the
 user's name or on the template's name in the users list.
 
-The rights sheet displays and allows to manage the **consultation and 
-exploitation rights** on the left, and the **managing rights** in the broad
-sense, on the right.
+The rights form allows to give viewing, exploitation or managing rights per
+Phraseanet base and collection. The rights are granted when the corresponding
+boxes are checked.
 
-To have access to the user's information, click on the user's sheet, in the top 
-left corner of the window (in blue below).
+The form also gives access to the user's information. Click on the tab Sheet to
+display them.
 
 .. note::
 
     The modification of the user's rights access can be created in batches by
     selecting several users.
 
-This frame gives the list of all the available Phraseanet bases and collections
-that the user can have access to.
+When editing by batch, a grayed box indicates that the right is at least granted
+to one of the selected users.
+A user cannot give more rights than he has himself : a red dot indicates that it
+is impossible to give rights.
 
-.. image:: ../../images/Administration-rights.jpg
-    :align: center
+The sign **i** indicates a secondary form. Click on the icon to display it.
 
-Collections appear with the name of the base they belong to.
-Collection is the notion used in the interfaces *Production*, *Classic*, 
-*Report*, *Administration*.
+The headers on the columns are clickable. They allow to check or un-check the
+boxes on all the collections of a base.
 
-The access for a user to Phraseanet Bases or Collections is defined in
-accordance with rights. A right is granted when the corresponding box is ticked,
-and is not granted when the corresponding box is unchecked.
-During an edition by batches, a greyed box means that the right is only granted 
-to some specific selected users.
-
-A user cannot give more rights than he has himself(red point). The sign
-"**i**" means that a window accessible a click away, define in detail the 
-specific rights.
-
-.. note::
-
-    By clicking on the grey arrow, Phraseanet allows you to tick or uncheck the 
-	entire column, instead of ticking boxes one by one.
-
-Consultation rights
-*******************
+Viewing rights
+**************
 
 The first part and leftmost of the rights window : 
 
-* Tick **Access** to allow access to a Phraseanet Base or to the collection
-* Tick **Active** to activate the user. Conversely, unchecking the box allows to 
+* **Access** to allow access to a Phraseanet Base or to the collection
+* **Active** to activate the user account. Unchecking the box allows to 
   disable the user without loosing the settings.
-* Tick **Baskets** to allow baskets creation.
-* Tick **See Preview** to allow the display of specific pictures.
-* Tick **Watermark** to define if the user sees specific pictures with a 
-  brand or a watermark.
-* Tick *Download HD** to allow the original document download.
-* Tick **Order** to allow to order the documents.
-* Click on **Quota** to open the window *Download quota*.
+* **Baskets** to allow baskets creation.
+* **Sub-definition** allows to view and download the sub-definitions of the
+  class *Sub-definitions*
+* **No Watermark** acts on the watarmarks applied on the sub-definitions of the
+  image type documents. Check the box to delete the applied watermark.
+* Documents authorize the download of the original document
+* Order allows to order documents
 
-Many specific options are available to the user for the limitation :
+Other restrictive options exist :
 
 Limitation by Quotas
 ^^^^^^^^^^^^^^^^^^^^
 
-The window "Downloads quota" allow to define the quota of download per
-Phraseanet base or collection.
+Quota allows to define the download limits per base or per collection. Click on
+the Quotas icon to set these limits.
 
-* Tick Yes to activate the quotas management.
+* Check **Restriction** to activate the download restrictions
 * Enter the number of authorized downloads per month for this collection.
-  The "rest" is automatically calculated according to the initial right and the
-  number of downloads.
 * Click on the "Validate" button to save the setting and close the window.
 
 Limitation in time
 ^^^^^^^^^^^^^^^^^^
 
-Click on **Limité Temps** to open the window *Durée de vie*
+Limit Time allows to set a time limit for a user's access to a Phraseanet base
+or collection.
 
-This window allows to set a time limit for the access to a Phraseanet base or
-collection.
-
-* Tick Yes to activate the time limit management.
-* Select the beginning and the end of the allowed access time.
-* Click on the "Validate" button to save the setting and close the window.
-* Click on **Status** pour to open the *Status* window.
+* Check **Activate** to activate the system
+* Fill the validity dates of the access then submit the form
 
 Limitation through Status
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -262,65 +204,67 @@ Limitation through Status
 Limitation through status allows to hide records from the user according to
 the state of one or several status.
 
-*Refer to the settings of the base for the creation and the management of the 
-status bits.*
+.. note::
+	Refer to the settings of the base for the creation and the management of the 
+	status bits.
 
-Click on the "Validate" button to save the setting and close the window.
+Click on the statuses icon to set the access restrictions to the records.
+
+* Check or uncheck the statuses restricting the visibility on records and submit
+  the form
 
 Exploitation and management rights
 **********************************
 
-The second part of the rights window allows to define administrative rights,
-that is to say, the accessible actions for the user, through the signs on the
-"Actions palette" among other.
-Tick the box to give access to the relevant right on a Phraseanet base or
-collection. 
+The left part of the rights form regroups the exploitation rights of documents
+and the managing rights of Phrasesanet bases and collections.
 
-**Documents**
+Rights on the documents
+^^^^^^^^^^^^^^^^^^^^^^^
 
-* Tick **Add** to allows the addition of document in a Phraseanet base or 
-  collection.
-* Tick **Edit** to allows the edition of the documents description.
-* Tick **Modify status** to allow the user to change the status of a document.
-* Tick **Delete** to allow the user to delete a document.
-* Tick **Picture tools** to allow the user to access the tools.
-* Tick **Users management** to allow users management.
-* Tick **Consult reports** to allow the user to consult the statistics.
-* Tick **Push** to allow the use of the *Push* function and the sending of
-  documents to their recipients.
+* Add authorizes to add documents and stories in the collection
+* Edit authorizes to edit the description of the records
+* Change status authorizes to edit records statuses
+* Delete authorizes records deletion in the collection
+* Image tools gives access to the Tools button actions
+* Users management gives access to the users management
+* View Reports gives access to Report
+* Push authorizes the documents broadcasting by Push and Validation
 
-**Base and collections management rights**
+Rights on Phraseanet bases and collections management
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Tick **Coll. management** to allow the user to do several actions of management.
-  For an example, for a collection: Rename it, empty it, put it on-line or 
-  off-line, delete it.
-* The box **Coll. Structure** gives access to the collections settings in 
-  *Phraseanet Administration*. "Structure Coll." allows the access to the 
-  collection preferences and permits the modification of the suggested values 
-  list.
-* The box **Basket publication** allows a user to publish in the form of 
-  baskets, documents on pages of the application *Classic*.
-* The box **Thesaurus Modification** allows the user to access the application
-  *Phraseanet Thésaurus*
-* The box **Base management** allows to access the functions of settings of 
-  databases as creation, purge and advanced functions of the solution 
-  management.
+The managing rights are built upon each other to the setting access on
+Phraseanet bases and collections.
 
-"Requests"
-----------
+* Coll. management reveals menus giving access to the base settings in Admin.
+  These rights must be completed by at least one of the following rights.
+* Manage suggested values allows to edit the suggested values by field and by
+  collection on a base.
+* Publication allows to publish with Bridge and the available RSS Streams
+* Mod. Thesaurus allows to edit the thesaurus
+* Base Management gives access to functions to manage the base including the
+  creation, the deletion or purge of bases
+* Base structure gives access to the setting of a base structure
 
-Available through the Administration module menu, this window shows the 
-application requests of new users on the *Inscription* screen.
-If a user make a request on several collections, the number of validation lines 
-will be the same as the number of requests.
-A "rollover" on the name allows to display the information related to the
-applicant.
+"Access Requests"
+-----------------
+
+The **Requests** section lists the subscription requests made through available
+forms.
 
 .. image:: ../../images/Administration-demande.jpg
     :align: center
 
-Select the rights to allocate per collections by ticking the boxes.
-The user can :
+The subscriptions are on collections and there are as many lines than access
+requests.
+
+A rollover on the name allows to display the information related to the
+applicant.
+
+Select the rights to allocate per collections by checking the boxes.
+
+The possible choices are :
 
 * Deny the access to the requested collection.
 * Give access to the requested collection, to the documents in sub-definitions.
@@ -328,3 +272,6 @@ The user can :
 * Give access to the requested collection, without documents in high definition.
 
 Click on **Validate** to apply the selected choices.
+
+The other option top accept a subscription request consists in applying a user
+template.

@@ -6,11 +6,9 @@ Lightbox
 
 .. topic:: The essential
 
-    *Phraseanet Lightbox* collaborative viewing interface.
-	If has comparison features, disporama, export and allows to validate and
-	comment media.
-	It allows the non authenticated users to view pictures without
-	authentication.
+    *Phraseanet Lightbox* collaborative viewing interface. If has comparison
+	features, slide show, export and allows to validate or comment media. The
+	Push and Validation recipients can view their contents using this interface.
 
 Access the Lightbox
 -------------------
@@ -19,26 +17,25 @@ For the non authenticated users
 *******************************
 
 This interface is accessible by clicking on the HTML link of the email sent when
-a Phraseanet user sends a :doc:`Push or validation request <Push>`.
+a Phraseanet user sends a :doc:`Push or validation request <Push>`. The users
+can have to log in to display the pushed contents.
 
-.. image:: ../../images/Lightbox-email_reception.jpg
+.. image:: ../../images/Lightbox-reception_email.jpg
     :align: center
 
 For authenticated users
 ***********************
 
-Lightbox is available in the menu bar of the Phraseanet applications.
+Click on the Lightbox section of the menu bar to open the interface.
 
-.. image:: ../../images/General-menu0.jpg
-    :align: center
-
-Click on the section **Lightbox** of the menu to join *Phraseanet Lightbox*.
+The interface lists the Pushes and Validation requests that a user created or
+received. Click on one item of the list to display its contents.
 
 .. image:: ../../images/Lightbox-menu.jpg
     :align: center
 
-The window displays a list of **Push** and of **validation demands** that the
-user have made or received.
+In Production, the Lightbox section of the pop-up menu of each basket allows to
+display its contents in this interface.
 
 The interface
 -------------
@@ -49,12 +46,11 @@ The interface of Lightbox is simple and intuitive.
     :align: center
 
 * **1**. The action bar gives the title of the displayed media, allows to
-  browse the records and gives access to download the media.
+  browse the records and gives access to download the displayed media.
 * **2**. The lightbox, at the center, shows the media, its description and its
-  characteristics. This area is different if it is a **Push** or a
-  **Validation request**
+  characteristics. This area is different if it's a Push or a Validation request
 * **3**. A menu area allows to browse through Push and Validations
-* **4**. The thumbnail area lists the media of the lightbox
+* **4**. The thumbnail area lists the media of the basket or validation
 
 Browse
 ******
@@ -63,7 +59,10 @@ To browse the Lightbox media :
 
 * Select using the mouse a picture to display in the thumbnails viewing area
 * Use the keyboard arrows
-* Use the forward or backward arrows located at the right of the action menu
+
+**Or**
+
+* Use the *Next* or *Back* arrows at the right of the action menu
 
 Slide show
 **********
@@ -80,50 +79,54 @@ Download media
 To download the displayed media on the lightbox, click on the save icon in the
 action menu.
 
-.. image:: ../../images/Lightbox-save.jpg
+.. image:: ../../images/Lightbox-enregister.jpg
     :align: center
 
-To download all the media of a lightbox, click on the button on the botton left
-of the interface.
+To download all the media of a basket or validation, click on the export button
+on the bottom left of the interface.
 
-.. image:: ../../images/Lightbox-save-all.jpg
+.. image:: ../../images/Lightbox-enregister-tout.jpg
     :align: center
 
-The download from *Phraseanet Lightbox* suggests some options like the Export
-options from *Phraseanet Production*.
+Downloading from Lightbox is identical to the export in Production.
 
-.. image:: ../../images/Lightbox-save-export.jpg
+.. image:: ../../images/Lightbox-enregister-export.jpg
     :align: center
 
-`Refer to the export section in Phraseanet Production <Export>`_.
+.. seealso::
+	
+	Refer to the :doc:`export section in Production<Export>`.
 
 Compare two media
 *****************
 
-If can be useful to compare two media side by side.
+Lightbox allows to display two media side by side to compare them.
 
-.. image:: ../../images/Lightbox-compare.jpg
+.. image:: ../../images/Lightbox-comparer.jpg
     :align: center
 
-* display a first media on the lightbox by clicking on its thumbnail
-* while pressing **Ctrl** (PC Windows) or **Cmd** (Mac OS) on the keyboard, 
-  click on the media to compare with.
+* Display a first media on the lightbox by clicking on its thumbnail
+* While pressing **Ctrl** (Windows) or **Cmd** (Mac OS) of the keyboard, click
+  on the media to compare it with in the thumbnails list.
 
 This system is really useful when :doc:`validation documents <Push>`.
+
+.. _Push-Documents-validation:
 
 Validate documents in the Lightbox
 ----------------------------------
 
-The documents validation in *Phraseanet* is an opinion request on the media.
-The user whom the validation request is sent gives his opinion by **yes** or
-**no** and can make a comment if he wishes to.
+The documents validation in is an opinion request on the media. The user whom
+the validation request is sent to gives his opinion by **yes** or **no** and can
+make a comment if he wishes to.
 
 .. image:: ../../images/Lightbox-validation.jpg
     :align: center
 
-To add a comment, click on the tooltip in the action menu.
+He may, if he wants to, add a comment on the media. To do so, click on the
+tooltip in the action menu.
 
-.. image:: ../../images/Lightbox-validation_opinion.jpg
+.. image:: ../../images/Lightbox-validation_appreciation.jpg
     :align: center
 
 After the validation, click on the **Send my report** button.

@@ -1,24 +1,46 @@
-Use of the FTP features
-=======================
+Activate the FTP documents reception
+====================================
 
-.. topic:: The essential
+The documents reception on FTP file-servers is a setting in Phraseanet.
+It must be activated to be available for the users.
 
-  Phraseanet allows ton interact with servers supporting FTP file transfer
-  protocol.
-  Here are some tips to use these features.
+Activate FTP export
+-------------------
 
-Activate the FTP features
--------------------------
+Log in as administrator
 
-The following steps are mandatory .
+* Go in the Settings section of the Admin
+* At the FTP export section, set the radio-button to *True*
 
-* As Administrator, go in Admin then Settings
-* Look for the line **FTP export**
-* Activate the FTP export by turning to **True** the switch
+The option **Activate FTP export** activates the function for all the users.
+Activate this option if needed.
 
-.. image:: ../../images/Faq-activer-ftp0.jpg
-    :align: center
+* Validate the settings modifications by submitting the form
 
-By default, when activated, the FTP export features are available only for
-administrators. Adjust if needed the second switch to enable the features for
-all users.
+
+Create a FTP export task
+------------------------
+
+This task is to enable the transfer of FTP files contained a queue at regular
+intervals.
+
+* Go in the Task manager section of the Admin
+* Create and set a FTP Push task
+* Start this task
+
+
+Using the FTP export
+--------------------
+
+The activation of this setting adds a new FTP tab in the export window for the
+users that can access it.
+
+* Fill the connection settings in the FTP export form
+
+or
+
+* Use a preset of the FTP Server section of the
+:doc:`user account preferences<../../User/Guide/PhraseanetMenu>`
+
+A button Test allows to test the connection to the FTP server.
+A button Send allows to send files to this remote server.

@@ -1,5 +1,5 @@
-Customizing Phraseanet
-======================
+Customize Phraseanet
+====================
 
 .. topic:: The essential
 
@@ -12,6 +12,6 @@ Customizing Phraseanet
 
    Watermark
    Stamp-logo
-   Activate-ftp-download
    Setting-guest-account
+   Setting-subscriptions-on-collections
    Setting-title

@@ -15,51 +15,48 @@
     A `Lists manager`_ allows to create sending lists to answer some 
 	repetitive sending towards the same users.
 
-Push
-----
-
-The Push is a submission of documents in :doc:`Phraseanet Lightbox<Lightbox>`.
-Reversely to the e-mail sending proposed by the export features, the*Push*
-does not transmit the documents physically.
-It notifies in the *Production* interface, and also notifies by e-mail, and 
-leave at the users disposal some media selections coming from baskets that they 
-can consult and eventually download.
-
-How to push documents ?
-***********************
-
-* Select one or several documents in the display area 
-  doc:`Results <Display>` of the *Production* interface.
-
-* Click on the **Push** button of the :doc:`Actions range <Actions>` :
-  An Overlay window opens and displays the *Push* window.
-
-.. image:: ../../images/Push-push_layout-1.jpg
+.. image:: ../../images/Push-feedback_layout-1.jpg
     :align: center
+	
+The Push
+--------
 
-* Select one or several *Phraseanet* users to push toward them the selected
+The Push is a submission of documents or baskets of documents. Reversely to an
+e-mail export, the *Push* does not physically transmit the documents. It
+notifies in the interface, and also notifies by e-mail, and leave at the users
+disposal some media selections coming from baskets that they can consult and
+eventually download.
+
+Push documents
+**************
+
+* **Select one or several documents** in the results display area of in an
+  opened basket or open a story in the work area.
+
+* **Click on the Push button** of one of the Actions palette :
+
+In the Push window...
+
+* **Select one or several users*** to push toward them the selected
   documents.
 
-To do so, write their family names, first names or e-mail address in the field 
-of the form proposed on the top left of the interface. An auto-completion device
-is activated as soon as the third character is entered in order to facilitate
-the research of the user.
-Once the Phraseanet user is detected in the proposed users list, click on his 
-name in order to add him to the sending list. This action add the user in the 
-recipient area of the sending.
+To do so, enter their family names, first names or e-mail address in the form
+field on the top left of the interface. An auto-completion system is activated
+as soon as the third character is entered in order to facilitate users search.
+Once the Phraseanet user is detected in the suggested users list, click on his 
+name in order to add him to the sending list.
 
-To add one or several non registered users in a Phraseanet solution to a 
-sending list, click on the link *Add a user*.
-A simplified form to add users displays.
+**To add one or several non registered users** in a Phraseanet account base to a 
+sending list, click on the link **Add a user**.
 Fill in at least the mandatory fields recognizable by an asterisk then click
-on the "Add" button. This action add the created contact in the recipient area
-of the sending and create an account in its name in the Phraseanet system in the
-same time.
+on the "Add" button. The contact is created and added to the recipients area and
+his account is created.
 
 .. note::
 
-    The users listed in the recipient area of the sending can be gathered and 
-	saved in the sending lists in order to be reused afterwards.
+    The users listed in the recipient area can be gathered and saved in the
+	sending list.
+	
     To save a sending list, fill in the fields of the form located on the left 
 	of the recipient area then save by clicking on the icon :
 
@@ -67,95 +64,88 @@ same time.
         :align: center
 
     The created list is then displayed in the sending lists area. 
-    Features related to the sending lists are described after in the dedicated
-	section at `Lists manager`_.
+
+.. seealso::	
+	
+    Refer to the functionalities of the :ref:`list manager<Push-Manager>`.
 
 .. warning::
 
-    To be able to create users from Pushs and Validations, the user must have
-	the necessary users management rights.
+    To be able to create users from Pushes and Validations, the user must have
+	the required users management rights.
 
-To give some specific high definition downloads rights,(or *Grant rights*) on 
-the documents pushed to users appearing in the sending list, two methods are
-available:
+To grant some specific rights on high definition downloads,(or *Grant rights*)
+on the documents pushed to users of the sending list, two methods are available:
 
 * Select one or several users in the recipient area, then click on the 
    *HD download* button located on the left of the sending users list.
 
-**Or**:
+**Or**,
 
-* Click on the icon located on the representative sticker of each recipient,
-  that gives the right for an high definition download.
+* Click on the icon located on the representative sticker of each recipient to
+  grant the right for a high definition download.
 
 .. image:: ../../images/Push-download-badge.jpg
     :align: center
 
 * Click on the *Send* button to validate and to transmit the Push.
 
-A form is available to give a more convivial name and description to the sending
-and allows to ask for an acknowledgement of receipt of the sent e-mail if this
-feature is supported by the recipient e-mail server.
+A form is available to give a name, a description to the sending and to request,
+if needed, an acknowledgement receipt of the email if this function is supported
+by the recipients mail boxes.
 
-Validation 
-----------
+The Validation
+--------------
 
-The operating mode is nearly the same as a Push sending. The only difference is
+The operating mode is nearly identical to a Push sending. The only difference is
 the giving out of additional or optional benefits.
 
-* Select one or several documents in the display area of the production 
-  interface results.
-* Click on the Validation section of the Phraseanet's actions range of the Push 
-  menu : An Overlay window opens and displays the Validation window.
+* Select one or several documents in the results display area or an opened
+  basket or open a story in the work area.
+* Click on the Validation section of the Phraseanet's actions palette of the
+  Push menu of a basket or opened story in the work area.
 
-.. image:: ../../images/Push-feedback_layout-1.jpg
-    :align: center
+**In the validation window**,
+  
+* Select the Phraseanet user(s) who will receive the Validation request. To
+  address this request to non-registered users on the application, the operating
+  mode is also the same as for a Push.
 
-* Select the Phraseanet users who will receive the Validation request, in the 
-  same way as for a Push. To address this request to non registered users on the
-  application, the operating mode is also the same as for a Push.
+The increase of additional rights (the *Grant Rights*) works the same way as a
+Push. Rights that can be elevated are more dense :
 
-The increase of additional rights(Grant rights) works the same way as a Push.
-Rights that can be delegate are more dense.
+* **The High Definition download** to grant access to the sub-definitions of the
+  documents class
+* **The contribution** to validation, default option that allows to give an
+  opinion on the documents
+* **See others** allows the recipient to view the opinions and comments of the
+  other users part of the validation
 
-In addition to the **High definition download**, it is possible to allow the 
-recipient to contribute to the request validation, this is the default option.
+To validate and transmit a Validation request, click on the *Send* button. 
+A form allows to set the period of validity of a Validation request, and 
+to give it a friendly name and description, these items are included in the
+email received by the recipients.
+To request an acknowledgement receipt of the Validation request, check the
+appropriate box.
 
-**To activate or deactivate this option**, click on the **Contribute** button or
-on the icon.
+Push or Validation reception
+----------------------------
 
-.. image:: ../../images/Push-contributeur_badge.jpg
-    :align: center
+Pushes and Validations are notified in two different ways :
 
-The **See others** button and is related icon
+*  By notification in the Production interface
+*  By email
 
-.. image:: ../../images/Push-see_other_badge.jpg
-    :align: center
-
-allow a recipient to visualise opinion and comments sent by other recipient
-about the Validation request.
-
-To validate and to transmit a Validation request, click on the *Send* button. 
-A form is available to set the period of validity of a Validation request, and 
-to give a convivial name and description to the elements taken up by the
-recipients in the received e-mail.
-In a same way, to claim an acknowledgement receipt of a Validation request, tick
-the box provided for that purpose, if the e-mail server of the recipient takes 
-account of it.
-
-Push or Validation receiving in the Phraseanet Lightbox
--------------------------------------------------------
-
-Push and Validation are notified in two different ways :
-
-*  By notification in the Phraseanet Production interface.
-
-*  By email.
-
-Each notification mode has a permanent link allowing the display in Phraseanet 
+Each notification mode has a permanent link allowing to display in Phraseanet 
+Lightbox. The *Pushes* and *Validations*  received are displayed as received
+baskets in the Production work area. They are also regrouped in Phraseanet
 Lightbox.
-*Push* and *Validations*  received are gathered in the module 
-:doc:`Phraseanet Lightbox <Lightbox>`, which is a collaborative consultation 
-interface.
+
+.. Seealso::
+
+    :doc:`Refer to the page dedicated to <Lightbox>`
+
+.. _Push-Manager:
 
 Lists manager
 -------------
@@ -163,45 +153,37 @@ Lists manager
 .. topic:: The essential
 
     The *Lists manager* allows to set up and administrate the recipients lists 
-    for the diffusion of *Push* and *Validation* in *Phraseanet Lightbox*.
-    In this way, it becomes even more easy to diffuse media or to ask to 
-	appreciate them in *Phraseanet*.
+    for the diffusion of *Pushes* and *Validations*.
 
-The *Lists manager* is accessible from the Push and Validation windows of the
-Production module of the Phraseanet application. click on the link 
-*Lists manager* located on the left zone of the sending recipients area.
+The *Lists manager* is accessible from the Push or Validation windows. Click on
+the link *Lists manager* on the left of the recipients area.
 
-Create and edit a sending list
-******************************
+Create and edit a list
+**********************
 
-To create a new list in the *Lists manager*, click on the link *Add*.
+To create a new list in the Lists manager, click on the link *Add*.
 
 * Give a name to the new list in the displayed form, then validate the form. The 
   name of the created list displayed in the list area on the left of the 
-  interface. Click on its name to visualise its content.
-
-.. image:: ../../images/Push-list_manager_creer.jpg
-    :align: center
-
+  interface. Click on its name to view its content.
 * Click on the *Edit* button on the left of the central area of the 
-  *Lists manager* interface to edit a list's content. This action allows to 
-  present the list of the users identified in a Phraseanet system.
+  Lists manager interface to edit a list's content. The list of the users of a
+  Phraseanet system is displayed.
 
 .. image:: ../../images/Push-list_manager_editer.jpg
     :align: center
 
 * To add one or several users in a sending list, select the lines of the users
-  to add.
-  The added users or presents users in the edited list are highlighted in ochre.
-* To remove one or several users from the edited sending list, select the lines
-  of the corresponding users : This action allows to remove them from the list.
+  to add. The added users or those already in the edited list are highlighted in
+  ochre.
+* To remove a user from the sending list, click on the corresponding line.
 
 .. note::
 
-    A research device and filters allow to limitate the display of the users by
-	their login, family name or first name, activity, company...*etc.*
+    A research and filters system allow to limit the display of the users by
+	login, family name or first name, activity, company...*etc.*
 
-* To go back to the list's summary, click on the *See* button.
+* To go back to the list's summary, click on the button *See*.
 
 Share a list
 ************
@@ -221,23 +203,21 @@ share that sending list.
 By default, sharing access are allocated in accordance with the level of access
 granted.
 
-* The **Access** level gives access to read-only mode on the sending list
-* The **Editor** level gives access to read and write mode on the sending list
-  content.
-* The **Admin** level gives access to read and write mode and allows also to 
-  remove some shared lists.
+* The **Access level** grants access to read-only mode on the sending list
+* The **Editor level** grants access to read and write mode on the contents of
+  the sending list.
+* The **Admin level** grants access to read and write mode and also allows to 
+  delete shared lists.
 
-remove a list
+Delete a list
 *************
 
-**To remove a sending list**, select it in the list of the sending lists. the
-list displays, then click on the **Remove** button located on the top right of
-the interface.
-A window displays and asks for a removal confirmation. click on *Ok* to remove 
-definitively the list.
+**To delete a sending list**, display it by selecting it in the list of the
+sending lists, then click on the **Delete** button on the top right of
+the interface. Confirm (or cancel) the deletion.
 
 .. note::
 
-    If the name of the removed list still appears in the list of the sending
-	lists, click on the *Refresh* button located on the left of the interface.
+    If the name of the deleted list still appears in the list of the sending
+	lists, click on the *Refresh* button on the left of the interface.
     

@@ -11,4 +11,4 @@ User management
    :glob:
 
    User-mass-upload
-   Adding-application
+   Add-application

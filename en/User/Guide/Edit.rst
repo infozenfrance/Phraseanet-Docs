@@ -20,6 +20,9 @@ Edit records
 Edition generalities
 ********************
 
+.. image:: ../../images/Prod-Editer.jpg
+    :align: center
+
 The window has three areas :
 
 * **The scroll bar** displays the selected documents. The size of the area is
@@ -28,8 +31,7 @@ The window has three areas :
   and reserves some space to display the contents of the active field.
 * **The text-entry help tabs area** suggests help for the text-entry.
 
-.. image:: ../../images/Prod-Edit.jpg
-    :align: center
+**By default, all the records are selected.**
 
 * Select media, a basket or a story
 

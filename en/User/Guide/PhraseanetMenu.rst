@@ -1,5 +1,5 @@
-Phraseanet menu
----------------
+The Phraseanet menu
+===================
 .. toctree::
     :maxdepth: 2
 
@@ -8,23 +8,21 @@ Phraseanet menu
     The *Phraseanet* menu bar allows to access the different interfaces of the 
 	application, the user account settings and some information and resources.
 
-.. image:: ../../images/MenuPhraseanet.jpg
-    :align: center
-
 Access to interfaces
-********************
+--------------------
 
-All the *Phraseanet* interfaces offer at the top of the window, an identical 
-menu in the menu bar.
+All the *Phraseanet* interfaces offer at the top of the window, a menu bar.
 
-**the left part of the menu bar displays the list of the interfaces that the
-user can access.** By clicking on an application's name, the internet browser 
-launches the application in a new tab or a new window. 
+**The left part of the menu bar displays the list of the interfaces that the
+user can access.** Click on an application's name to launch the application in a
+new tab or a new window of the web navigator. 
 
 **The sections in the menu bar depend on the users rights.**
 
-Users who have only assets consultation rights have a limited access to the
-sections.
+If a user does not have access to some features, the link toward the interface
+exploiting it will not appear in the menu bar.
+So, users who have only viewing rights on assets have access to a limited number
+of sections.
 
 .. image:: ../../images/General-menu0.jpg
     :align: center
@@ -34,13 +32,6 @@ Others users, such as administrators, have a more complete menu bar.
 .. image:: ../../images/General-menu1.jpg
     :align: center
 
-.. note::
-
-    If an interface is missing in the menu bar, it is a matter of rights.
-	
-    If a user have no access to specific features, the link to the interface 
-	using it does not appear.
-
 **The right part of the menu bar** displays notifications, the account
 identifier, on-line help with the keyboard short-cuts and the disconnection 
 link.
@@ -48,122 +39,111 @@ link.
 .. image:: ../../images/General-menu2.jpg
     :align: center
 
-Notifications access
-********************
+Access to notifications
+-----------------------
 
 The notifications are some information messages displayed in real time in the 
 interface *Phraseanet Production*.
 Notifications give some information about the new available publications, 
 validation requests, baskets receiving... *etc* to the user.
 
-.. image:: ../../images/General-notifications.jpg
-    :align: center
+**Click on the Notifications section to display them**.
 
-Refer to the section
-:doc:`personnaliser l'interface <PersonnaliserInterface>`.
+The notifications displayed in the interface are conveyed by the email's sending
+To manage the received notifications, access the 
+:ref:`Information tab<PhraseanetMenu-Information>` of the account settings.
 
-Account setting access
-**********************
+Account settings access
+-----------------------
 
-Click on the user identifier displayed.
-A new page opens and displays the forms and the gathered lists in some tabs.
+Click on the user identifier  to display the account settings.
+A new page opens and displays the forms and lists in thematic tabs.
 
 .. image:: ../../images/Moncompte.jpg
     :align: center
 
-Information
-^^^^^^^^^^^
+.. _PhraseanetMenu-Information:
+	
+Information tab
+***************
 
-The information tab gathers personal information. The offered form allows to 
-complete or modify information relating to the identity, addresses details, phone
-numbers, e-mails. It also allows to set the *Phraseanet* receiving notification
-made by e-mail or to activate an account :`FTP` that allows the receiving of
-documents on a server that supports that type of connection.
+It regroups the personal information. The form allows to complete or modify :
 
-.. note::
+* The identification information
+* The postal address, phone number or email address
+* To set the reception of notifications by email
+* To edit a favourite :term:`FTP` allowing to receive documents on a server
+  supporting this type of connection.
 
-    :doc:`How to activate the receiving of documents on a FTP server ? <../../FAQ/Parametrage/activer-ftp>`
+.. seealso::
 
-Access
-^^^^^^
+    :doc:`Activate the reception of documents on a FTP server<../../FAQ/Settings/activate-ftp>`
 
-The *Access* tab lists the Phraseanet bases and collections of the Phraseanet
-application.
-The tab mentions the collections to which the connected user has access to.
-The user can at any time make an access request to additional collections 
-offered.
+Access tab
+**********
 
-To make a request and access to new Phraseanet base or documents collections and
-visualise its content :
+It lists the Phraseanet collections on which the user can do access requests.
 
-* Tick one or several boxes to request access to new Phraseanet 
-Bases/collections
+To make an access request to new Phraseanet bases or collections :
+
+* Check the boxe(s) to request access to the new Phraseanet Bases/Collections
 * Validate the request by clicking on the *Validate* button.
 
-A message indicates that an access request is in progress.
+A message indicates that an access request is in progress. It needs to be
+examined by an administrator to be validated.
 
 .. image:: ../../images/Accesbasescoll.jpg
     :align: center
 
-Sessions
-^^^^^^^^
+Sessions tab
+************
 
-The *Sessions* section lists the user's Phraseanet sessions. It gives 
-information relating to dates of connections and dates of access to IP addresses
-and used browsers.
+It lists the user's sessions and gives information on the connections and access
+dates, IP addresses and web browsers used.
 
 .. image:: ../../images/ListeSessions.jpg
     :align: center
 
-To end one of the listed sessions, use the button provided for that purpose.
+Click on the button **End the session** to delete an active session.
 
-Applications
-^^^^^^^^^^^^
+Applications tab
+****************
 
-The *Applications* section lists the third party applications authorized to 
-connect the Phraseanet user's account..
+It lists the third party applications authorized to connect to the Phraseanet
+user's account.
 
 .. image:: ../../images/ListeApplications.jpg
     :align: center
 
-.. note::
+.. seealso::
 
-  :doc:`How to authorized a third party application to connect to my Phraseanet account ? <../../FAQ/Utilisateurs/ajouter-application>`
+  :doc:`Authorize a third party application to connect to a Phraseanet account<../../FAQ/Users/add-application>`
 
-Developer
-^^^^^^^^^
+Developer tab
+*************
 
-The *Developer* section allows the set up of the keys of:term:`API` in order
-to allow the third party applications to communicate with a Phraseanet account.
-A link to the documentation reserved for the developers is available in this 
-section. This documentation allows the user to know how to install the 
-*Phraseanet* API.
+It allows to implement :term:`API` keys so that third party applications can
+communicate with Phraseanet.
 
-Online Help access
-*******************
+.. seealso::
 
-By clicking on the "Help" tab, the user is redirected to the online 
-documentation home page. 
-By clicking on the arrow next the "Help" tab, two sub tabs appear :
-*Keyboard shortcuts*, and *About*.
+  :doc:`Refer to the API section of the Developer guide <../../Devel/API/V1>`
+
+
+Help sections
+-------------
+
+Click on the *Help* tab to view the online documentation.
+Click on the arrow next the Help tab, to show two sub tabs :
 
 .. image:: ../../images/General-menu3.jpg
     :align: center
 
-The *Shortcuts* section allows to display a list of the available shortcuts in
- *Phraseanet*.
-
-.. image:: ../../images/General-raccourcis.jpg
-    :align: center
-
-The *About* section allows to display information relating to the Phraseanet
-version.
-
-.. image:: ../../images/General-Version.jpg
-    :align: center
+* The *Shortcuts* section displays a recap of the available shortcuts.
+* The *About* section displays information on the Phraseanet version.
 
 Disconnect
-**********
+----------
 
 Click on *Disconnect* to end the session and exit *Phraseanet*.
 

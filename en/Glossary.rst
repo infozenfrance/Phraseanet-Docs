@@ -8,6 +8,20 @@ Glossary
 
 .. glossary::
     :sorted:
+
+    Universally Unique Identifier (UUID)
+		Unique numerical identifier coded on 128 bytes conceived to be unique
+		worldwide. Some graphic softwares (camera firmware, image processing
+		software) introduce these identifiers in the digital image files to
+		distinguish one from an other.
+
+        .. seealso::
+
+            http://en.wikipedia.org/wiki/Universally_unique_identifier
+
+    Webhooks
+		Web development technique implementing events targeting third party
+		applications in order to interact with them.
 	
     Stemme
         Stemme is a neologism defining a configuration allowing to optimise and
@@ -18,18 +32,18 @@ Glossary
         ... These processes implement algorithms for automatic languages
 		processing.
 
-    OAuth
+    OAuth2
         Open authentication protocol allowing a secured authentication on web,
 		mobiles or desktop applications.
-        OAuth allows to authenticate using information from a remote account 
-		base from supplied by OAuth providers.
+        OAuth2 allows to authenticate using information from a remote account 
+		base from supplied by OAuth2 providers.
 
         .. seealso::
 
             http://www.oauth.net
 
     HTML5
-        HTML5 is the fifth major release of the HTML language. Runned in a 
+        HTML5 is the fifth major release of the HTML language. Executed in a 
 		browser using its advanced features, HTML5 allows to build feature-rich
 		web interfaces.
 
@@ -40,7 +54,7 @@ Glossary
     Document
         A document is the original file added to a Phraseanet Base/Collection.
 
-    Sub resolutions
+    Sub-resolutions
         These files are generated when a document is added. They are classified
         in three groups (Everybody/Sub resolutions/Documents) and are linked to 
 		the user rights.
@@ -82,7 +96,7 @@ Glossary
     Collection
         A collection is a subset of a Phraseanet base. They allow to implement a data
         segmentation, based on workflow needs or even data separation in 
-		accordance with subjective criterias (type of document, year of the
+		accordance with subjective criteria (type of document, year of the
 		shooting...*etc*.).
 
     Basket
@@ -98,11 +112,11 @@ Glossary
 
     IPTC (IPTC Metadatas)
 		The IPTC metadatas are a set of metadatas attributes that allows to
-		describe media datas.
+		describe media data.
 
     IPTC
         The IPTC (International Press and Telecommunications Council) is a
-        consortium regrouping press agencies, press editors and softwares that
+        consortium regrouping press agencies, press editors and software that
 		develops and maintain standards for information exchange fairly used in
 		the media industry. More than twenty years ago, in order to facilitate
 		information exchange related to media, the main idea of the IPTC was to
@@ -148,7 +162,7 @@ Glossary
     Push
         Phraseanet action allowing to send documents to users or applications.
 
-    Action menu
+    Actions palette
         Tools available for the users depending on their user rights, enabling
 		to execute actions on baskets documents...
 		
@@ -159,7 +173,7 @@ Glossary
     Business field
         The Phraseanet *Business field* are fields that will receive business
 		information. These internal information are shared by the users having
-		editing rights on the documents. A business field is "lookable" only
+		editing rights on the documents. A business field is searchable only
 		by a user that have editing rights.
 
     Dublin Core

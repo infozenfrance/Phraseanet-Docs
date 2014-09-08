@@ -6,14 +6,10 @@
 
 .. topic:: The essential
 
-    Numerous statistics are available in *Phraseanet*. In the *Phraseanet 
-	Production* interface, they are visible in the *Popularity* tab of the 
-	document (:doc:`voir section Afficher <Afficher>`).
-    Statistics have a dedicated interface, *Phraseanet Report*, in which the 
-	user can find a general dashboard that allows to visualise the website
-	activity and to consult some detailed reports.
-    *Phraseanet Report* allows to get statistics on a period, on a type of
-	information and for one or several Phraseanet bases or collections.
+    Numerous statistics are available in *Phraseanet*. In Production, stats on
+	the documents are published in the tabs of the detailed view.
+	
+	**Report** gives more detailed informations on the site's activity.
 
 Reports are sorted in 4 tabs :
 
@@ -67,8 +63,8 @@ order to have access to the statistics :
 * `Reports types`_
 
 
-Connection
-----------
+Connections
+-----------
 
 The user click on the "Connection" tab if he wants to see how many connections 
 have been done on his Phraseanet system.

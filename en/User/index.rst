@@ -1,65 +1,58 @@
 ﻿User
 ====
 
-Le Guide utilisateur est consacré aux problématiques d'exploitation du logiciel
-*Phraseanet*.
-Il s'adresse à différents types d'utilisateurs :
+The user guide is dedicated to operations problems of the software *Phraseanet*.
+It addresses different kind of users :
 
-* **Les utilisateurs finaux** dont le but est la recherche et le téléchargement
-  de médias.
-* **Les contributeurs**, **documentalistes** ou **iconographes** qui alimentent,
-  renseignent, organisent et promeuvent des fonds documentaires.
-* **Les administrateurs fonctionnels** ou **les chefs de projets** qui mettent
-  en place ou animent des projets de médiathèques dans les entreprises et
-  organisations.
+* **The final users** whose goal if search and download media.
+* **The contributors**, **documentalists** or **iconographs** that feed,
+  initiate, organize and promote documentary assets.
+* **The functional administrators** or **the project managers** that implement
+  or animate multimedia libraries projects in enterprises or organizations.
 
-Ce Guide donne d'une part une première approche de l'utilisation de
-*Phraseanet* tout en laissant les experts découvrir des fonctionnalités qui les
-convaincront d'utiliser *Phraseanet* pour leurs projets.
-D'autre part ce Guide donne des réponses à des cas d'usages pour répondre aux
-problématiques de l'archivage, de la gestion, de la diffusion de médias au
-travers du logiciel *Phraseanet*.
+This guide gives on the one hand the first approach on using *Phraseanet* while
+leaving the experts to discover the functionalities that will convince them to
+use *Phraseanet* for their projects.
+On the other hand, this guide gives use cases that gives the answer to archiving
+issues, management, media broadcasting through *Phraseanet*.
 
-**Ce Guide n'est pas parfait**.
+**This guide is not perfect**.
 
-Il peut contenir des manques et le lecteur peut sans doute avoir des questions
-auxquels ne répond pas ce Guide.
+It can lack some points and the reader can surely have some questions that have
+no answers in this guide.
 
-Il peut adresser ses questions sur les forums et groupes auxquels participent l'
-équipe *Phraseanet*.
+He can put his questions on the forums or groups in which the *Phraseanet* team
+is active.
 
-Consulter la rubrique `Support <https://www.phraseanet.com/support/>`_ du site
-Phraseanet.com pour la liste complète des Google Groups *Phraseanet*.
+See the `Support <https://www.phraseanet.com/support/>`_ section of the
+Phraseanet.com website for the exhaustive list of the *Phraseanet* Google
+Groups.
 
-Approche proposée
------------------
+Suggested approach
+------------------
 
-Après une présentation générale des interfaces du logiciel, ce Guide propose
-une approche par cas d'utilisateurs :
+After a general presentation of the software's interfaces, this guide suggests
+an approach by user case :
 
-* La section des :doc:`Fondamentaux<Guide/Fondamentaux>` se destine aux
-  utilisateurs accédant à Phraseanet dans le but de chercher et d'exporter de
-  médias.
-* La section :doc:`Gérer et animer un fonds<Guide/Animer>` se destine aux
-  personnes chargées de l'exploitation d'un fonds médias dans Phraseanet.
-* :doc:`Lightbox<Guide/Lightbox>` est une interface particulière dans la mesure
-  ou elle permet des accès à des médias poussés, webdiffusés dans une interface
-  singulière. Elle répond à la problématique de `l'information poussée
-  <http://www.oqlf.gouv.qc.ca/ressources/bibliotheque/dictionnaires/Internet/fiches/8393841.html>`_.
-* La section :doc:`Administration<Guide/Administration>` est consacrée au
-  paramétrage et à la gestion d'utilisateurs. Elle intéresse les administrateurs
-  et les personnes chargées des mises en oeuvre de projets de gestion de médias
-  numériques.
+* The section :doc:`Fundamentals<Guide/Fundamentals>` is for the users that use
+  Phraseanet to search and export media.
+* The section :doc:`Manage and animate an asset<Guide/Animate>` is for the users
+  that exploit a media asset in Phraseanet.
+* :doc:`Lightbox<Guide/Lightbox>` is a particular interface because it enables
+  access to pushed media, webcasted in a particular interface. It answers the
+  pushed information problem.
+* The section :doc:`Administration<Guide/Administration>` is dedicated to the
+  management and setting. It is for administrators and users that implement
+  digital media management projects.
 
-Pour accéder aux différentes sections du Guide utilisateur, cliquer sur les
-liens ci-dessous :
-
+To access the different sections of the user Guide, click on the links below :
+ 
 .. toctree::
    :maxdepth: 3
 
    Guide/General
-   Guide/Fondamentaux
-   Guide/Animer
+   Guide/Fundamentals
+   Guide/Animate
    Guide/Lightbox
    Guide/Administration
 

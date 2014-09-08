@@ -1,7 +1,7 @@
 Add a Stamp logo
 ================
 
-The use of a stamp automatically adds a banner with a logo and metadatas when
+Using a stamp automatically adds a banner with a logo and metadatas when
 exporting sub-definitions and original pictures.
 The stamp configuration is a 2 step process.
 

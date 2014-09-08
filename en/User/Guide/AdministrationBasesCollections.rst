@@ -9,6 +9,8 @@ Phraseanet bases and collections administration
 	Each of the	bases corresponds to a customizable documentary structure, the
 	collections can be treated as base subsets.
 
+.. Setting-Structure:
+	
 Customization per base
 ----------------------
 
@@ -32,10 +34,10 @@ do so, click on the **+** icon.
 Setting the structure
 *********************
 
-The section **Setting the structure** allows to display the documentary
-structure of the selected base as a writeable XML file.
+This section displays the documentary structure of the selected base as a
+writeable XML file.
 
-.. image:: ../../images/Administration-xmlstructure.jpg
+.. image:: ../../images/Administration-structurexml.jpg
     :align: center
 
 It's unlikely to have to customize a base using this interface, the interfaces
@@ -48,21 +50,25 @@ Fields
 The section **Fields** allows to define and edit the documentary structure of a 
 Phraseanet base using forms in a graphical interface.
 
-.. image:: ../../images/Administration-fieldstructure.jpg
+.. image:: ../../images/Administration-structurechamps.jpg
     :align: center
 
 Each of these fields of the documentary structure is defined by customizable
 properties :
 
-* A title
+* A unique name
 * Text type, multivalued text or date
 * Labels or localized labels depending on the interface languages
 * A mandatory presence or not
 * An optional data source
-* An optional :term:`Dublin Core <Dublin Core>` source
-* An optional :term:`Business field <Business field>` property
+* An optional Dublin Core source
+* An optional Business field property
 * The order
-* ...etc.
+
+.. note::
+
+    **The field types are linked to the Phrasea engine**.
+    :doc:`Refer to the fields type information of the FAQ <../../FAQ/Settings/Phrasea-field-types>`.
 
 Sub-definition
 **************
@@ -70,7 +76,7 @@ Sub-definition
 The section *Sub-Definition* allows to add and edit the media sub-definitions
 for picture, videos, audio type integrated in Phraseanet.
 
-.. image:: ../../images/Administration-subdefinition.jpg
+.. image:: ../../images/Administration-sousdefinitions.jpg
     :align: center
 
 The nature of the sub-definitions depends on the nature of the original
@@ -83,35 +89,26 @@ application.
 +=======================================+============+==========+=============+
 | Jpeg, psd, gif, png... pictures       | Jpeg sub-definition                 |
 +---------------------------------------+-------------------------------------+
-| Mpeg, Avi, Mov... video               | Mpeg4 sub-definition                |
+| Mpeg, Avi, Mov... video               | Mpeg4 sub-definition or Jpeg        |
 +---------------------------------------+-------------------------------------+
-| Wav, Mp3... audio                     | Mp3 sub-definition                  |
+| Wav, Mp3... audio                     | Mp3 sub-definition or Jpeg          |
 +---------------------------------------+-------------------------------------+
-| Pdf, Word... office document          | Flash animation (Swf)               |
+| Pdf, Word... office document          | Flash animation (Swf) of Jpeg       |
 +---------------------------------------+-------------------------------------+
 
 .. warning::
 
-	The thumbnail and preview sub-definitions are essential.
+	The *thumbnail* and *preview* sub-definitions are essential.
 	They are used in the Phraseanet interfaces to display the thumbnails and
 	preview images of the media.
 
-Status settings
-***************
+Statuses settings
+*****************
 
-The :term:`Statuses<Status>` are markers that indicates states on records.
-They interact or not with the users rights (see **Limitation by statuses** on 
-the page dedicated to the :doc:`User management<UserAdministration>`).
-
-In Phraseanet, a status is either down (default state), or up.
-In practice, the statuses allow to set states on documents and if needed, narrow
-the users restrictions of these documents.
-
+The :term:`Statuses<Status>` allows to set states on documents and to restrict
+the access to records to users regardless of the collection notions.
 Linked to the documentary structure of a base, it is possible to integrate up to
 28 statuses.
-
-.. image:: ../../images/Administration-status.jpg
-    :align: center
 
 * To declare a status, click on the Page icon to edit a new status bit then fill
   the form.	
@@ -129,37 +126,34 @@ The general terms and conditions of use are shown to the users when they sign-up
 * Fill or copy / paste a text in the different proposed languages.
 * Check the "The users...." box to make the existing users validate the updated
   conditions and terms.
-* Click on Update to save the changes.
+* Click on **Update** to save the changes.
 
-Collections sorting
-*******************
+Collections order
+*****************
 
-.. image:: ../../images/Administration-collectionsorting.jpg
+.. image:: ../../images/Administration-ordrecollections.jpg
     :align: center
 
 By default, the collections are displayed in Phraseanet by creation date. It is
 possible to modify this order.
 
-* Click on the section **Collection sorting**
+* Click on the section **Collections order**
 * Click on a collection
-* Click on Up, or Down or on "Alphabetical order"
-* Click on Validate to save the changes
+* Click on **Up**, or **Down** or on **Alphabetical order**
+* Click on **Validate** to save the changes
 
 The collections
 ---------------
 
-The collections are subsets of a base they share the settings with. The
-implementation answers to the segmentation needs of documentary assets and/or
-the assignment of specific users rights.
+The :term:`collections <Collection>` are subsets of a base they share the
+settings with. The implementation answers to the segmentation needs of
+documentary assets and/or the assignment of specific users rights.
 
 Create a collection
 *******************
 
 To create a collection, click on the title of the base in which the collection
 shall be created then click on **New collection**.
-
-.. image:: ../../images/Administration-createcollections.jpg
-    :align: center
 
 Specify the name of the collection to create in the name field then validate
 the form.
@@ -174,7 +168,7 @@ Display a collection
 
 Click on the title of the collection to display its information.
 
-.. image:: ../../images/Administration-displaycollection.jpg
+.. image:: ../../images/Administration-affichercollection.jpg
     :align: center
 
 This screen shows the essential information on the collection.
@@ -186,7 +180,7 @@ Display the details of a collection
 
 Click on **Details** to display an inventory of the collection contents.
 
-.. image:: ../../images/Administration-displaydetails.jpg
+.. image:: ../../images/Administration-afficherdetail.jpg
     :align: center
 
 The table lists the objects composing the collection (records, documents,
@@ -195,8 +189,10 @@ the size in giga-bytes.
 
 To hide the details of a collection, click on **Back**.
 
-Managing the order manager
-**************************
+.. _AdministrationBasesCollections-Managers:
+
+Managing the order managers
+***************************
 
 An order manager is a user that has a response right on the download requests
 on original documents sent by users who do no have the rights to download them.
@@ -207,13 +203,8 @@ on original documents sent by users who do no have the rights to download them.
 	interface and by email.
 
 **To add an order manager**, on the displayed collection, type the user's name
-or surname or login in the form to add a manager.
-
-.. image:: ../../images/Administration-ordermanager.jpg
-    :align: center
-
-An auto-completion system guides the user by suggesting users choices. Click on
-the user then apply the choice using the **Validate** button.
+or surname or login in the form to add a manager. Validate using the choice
+suggested by the auto-completion system.
 
 **To delete an order manager**, uncheck the box before his username then apply
 using the **Validate** button.
@@ -224,7 +215,7 @@ Branding a collection
 To brand documents published on other sites using Phraseanet, select one of the
 three suggested options in the group of radio-buttons.
 
-.. image:: ../../images/Administration-collectionbranding.jpg
+.. image:: ../../images/Administration-marquagecollection.jpg
     :align: center
 
 * Check the box **By default** to not brand,
@@ -245,9 +236,17 @@ Other actions on the collections
 
 A form regroups other actions on the selected collection.
 
-.. image:: ../../images/Administration-collectionotheractions.jpg
+.. image:: ../../images/Administration-collectionautresactions.jpg
     :align: center
 
+Set the labels
+^^^^^^^^^^^^^^
+
+The labels allows to give names to the collections in each interface language of
+the application.
+To define or modify the labels of a collection, fill the form then click on the
+button **Define the labels**.
+	
 .. _activate-collection:
 
 Activate or de-activate a collection
@@ -256,16 +255,14 @@ Activate or de-activate a collection
 By default, the collections are activated when created. This means that they are
 published and that the users that can access them can browse their contents.
 
-**To de-activate a collection** and stop its publication, click on
-**De-activate the collection**.
-
-Conversely, **to activate a collection**, click on **Activate the collection**.
+* To de-activate a collection and stop its publication, click on
+  **De-activate the collection**.
+* To activate a collection, click on **Activate the collection**.
 
 Rename a collection
 ^^^^^^^^^^^^^^^^^^^
 
-Click on *Rename* to change the name of the collection.
-Type the new name in the field that appears then click on **Send**.
+Enter a new name for the collection then click on Rename.
 
 Empty a  collection
 ^^^^^^^^^^^^^^^^^^^
@@ -273,7 +270,7 @@ Empty a  collection
 Emptying a collection deletes permanently all its records (documents, notes,
 sub-definitions).
 
-This action is permanent.
+This action is permanent and applies to the sub-definitions and the notes.
 
 Click on **Empty the collection** to delete all the records of the collection.
 
@@ -294,13 +291,10 @@ A collection is customizable by a set of distinctive graphical elements.
 Minilogo
 ^^^^^^^^
 
-To add a logo representing the collection (it appears in the *Classic* and
-*Production* interfaces under the thumbnails in the bottom right corner) :
+To add a logo representing the collection :
 
 * Click on the **Browse** button to select the logo file (maximum recommended
   size : 30 pixels height).
-
-* Click on **Send the logo** to download the logo in the Phraseanet bases.  
 
 Watermark
 ^^^^^^^^^
@@ -315,6 +309,21 @@ sub-definitions of the collection's documents.
 
 :doc:`Refer to the section dedicated to the Watermark in the FAQ.<../../FAQ/Customization/Watermark>`
 
+Stamp
+^^^^^
+
+A stamp adds a banner containing a logo and some metadatas to the export of 
+original image type documents.
+
+The configuration of the stamp must be completed by editing the XML tags in the
+collections preferences.
+
+.. seealso::
+
+    :doc:`Refer to the section dedicated to the Stamp Logo in the FAQ.<../../FAQ/Customization/Stamp-logo>`
+
+.. _AdministrationBasesCollections-values:
+
 Preferences : Suggested values
 ******************************
 
@@ -323,20 +332,13 @@ window to enable a rapid indexation. They are editable by collections and by
 fields.
 
 The edition of suggested values is possible using an edition form in graphical
-mode.
-
-.. image:: ../../images/Administration-graphicalmodevalues.jpg
-    :align: center
-
-Some other users prefer to use the XML view mode.
-
-.. image:: ../../images/Administration-xmlvalues.jpg
-    :align: center
+mode or using the XML view mode.
 
 * Select the fields in which you want to work
-* To add a value, type it in the intended area and click on Add
+* Enter the values
 
-It is possible to sort the values by clicking on a value then "Up" or
-"Down" or to sort them by alphabetical order by clicking on *Alpha sort*.
+In the graphical mode, it is possible to sort the values by clicking on a value
+then "Up" or "Down" or to sort them by alphabetical order by clicking on
+*Alpha sort*.
 
-To delete, click on a value then click on Delete.
+**To delete a value**, select it then click on **Delete**.

@@ -11,7 +11,7 @@ For each field, it is possible to choose its display language.
 How to set the title ?
 **********************
 
-* Connect to the instance with an **Administrator** account on the *Admin*
+* Connect to the instance with an **Administrator** account of the *Admin*
   module.
 * In the sidebar, expand the menu of the concerned Phraseanet base.
 * Click on the node **Fields**.

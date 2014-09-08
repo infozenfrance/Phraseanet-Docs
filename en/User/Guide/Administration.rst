@@ -7,7 +7,6 @@
 
 	The interface *Phraseanet Admin* allows the administration and customization
 	of Phraseanet.
-
     The screens and forms allow to manage and monitor the solution, sign up and
 	set up the users rights, deploy and manage Phraseanet Bases and documentary
 	collections.

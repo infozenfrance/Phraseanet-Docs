@@ -4,15 +4,15 @@ Activate the guest account
 The guest account grants access to one or more collections without needing
 authentication.
 
-The guest account is automatically activated as soon as the account have at
-least one right on one of the published Phraseanet bases.
+The guest account is automatically activated as soon as the account has at least
+one right on one of the published Phraseanet bases.
 
 Setting the rights for the guest account
 ----------------------------------------
 
 .. note::
 
-    Only a *Phraseanet* administrator can set the rights on a guest account.
+    Only a *Phraseanet* administrator can set the rights for a guest account.
 
 * Connect to the Admin interface
 * In the sidebar, click on the node **Users** then...

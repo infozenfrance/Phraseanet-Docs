@@ -9,7 +9,7 @@ In this case, the simplest process is a mass user import.
 * Go in **Admin** then in the section **Users**
 * Click on the **Import** link
 
-.. image:: ../../images/Faq-users-addcsv.jpg
+.. image:: ../../images/Faq-utilisateurs-ajoutcsv.jpg
     :align: center
 
 The displayed interface gives examples of CSV files and a user guide.

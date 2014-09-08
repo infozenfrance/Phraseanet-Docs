@@ -1,8 +1,9 @@
 Media management
 ================
 
-Technically, Phraseanet can store every type of file, furthermore if there are
-no restrictions set for the archiving task.
+If no restrictions are applied in the settings, Phraseanet can class all file
+types. The only limits are the ability of the host platform to generate
+thumbnails and previews.
 
 Does Phraseanet manage every video formats ?
 --------------------------------------------
@@ -27,7 +28,7 @@ push, and all others Phraseanet actions are still available.
 The multi-layers documents rendering is *weird*
 -----------------------------------------------
 
-The making of the sub-definitions for pictures is handled by the softwares
+The creation of the sub-definitions for pictures is handled by the softwares
 `ImageMagick <http://www.imagemagick.org>`_,
 `GraphicsMagic <http://www.graphicsmagick.org/>`_
 or by default by the default

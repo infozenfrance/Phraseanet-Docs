@@ -16,7 +16,7 @@ The Baskets
 
 .. topic:: The essential
 
-    A :term:`Basket <Basket>` is used to collect some documents and to work on
+    A :term:`Basket<Basket>` is used to collect some documents and to work on
 	them.
     A basket in not "searchable" and belongs to the user who created it.
     Mousing over the title bar allows to display its content in a modal window

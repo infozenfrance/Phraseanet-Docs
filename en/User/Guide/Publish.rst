@@ -8,8 +8,11 @@
 	Two features of Phraseanet allows to publish and to broadcast media from an
 	asset : *Publication* and *Bridge*
 
-Publish baskets and stories
----------------------------
+
+.. _Publish-Publications:	
+
+Publish media
+-------------
 
 Phraseanet publications allows to give the users
 :doc:`baskets <BasketsStories>` and stories in the publication page.

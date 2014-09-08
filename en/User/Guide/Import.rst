@@ -6,11 +6,10 @@ Import
 
 .. topic:: The essential
 
-    Relying on a :term:`HTML5` technology, the interface *Phraseanet Upload*
-    is accessible in Production via a a link located in title bar of the
-	Phraseanet menu. 
-    *Upload* is an interface dedicated to the addition of media towards
-    some collections on which the user have some addition rights.
+    Relying on a :term:`HTML5` technology, the upload interface is accessible in
+	Production via a a link located in title bar of the Phraseanet menu. Upload
+	is an interface dedicated to adding media towards collections on which the
+	user has adding rights.
 
 .. image:: ../../images/Upload-zones.jpg
     :align: center
@@ -19,7 +18,7 @@ Import
 
     For browsers that don't have the full HTML5 support, a display mode lying on
     the Adobe plug-in `FlashPlayer <http://get.adobe.com/fr/flashplayer/>`_ is 
-    available in *Phraseanet Upload*.
+    available.
 	
 .. image:: ../../images/Upload-Version-Flash.jpg
     :align: center
@@ -28,134 +27,119 @@ Click on the link **Use the Flash uploader** to use this mode.
 This Flash mode offers a downgraded display mode. It does not allow to access 
 all the features developed with the HTML5 technology.
 
-How to add media ?
-------------------
+Add media
+---------
 
-Click on Upload in the :doc:`menu <General>` Phraseanet.
-
-.. image:: ../../images/Upload-lancer.jpg
-    :align: center
-
-*Phraseanet Upload* starts in an Overlay window.
+Click on Upload in the :doc:`menu <General>` Phraseanet to start the interface
+in an overlay window.
 
 Select files
 ************
 
-Click on **Select files**.
+* Click on **Select files** (1). The file browser starts.
+* Select the files to integrate by browsing throuh directories, then click on
+  Open.
 
-.. image:: ../../images/Upload-zone1.jpg
-    :align: center
-
-The application launches the files explorer of the computer.
-Go to the file where are located the files, select the files,  then click on
-**Open**.
-
-.. image:: ../../images/Upload-fichiers.jpg
-    :align: center
-
-The interface displays the list of the files, identifiable by the thumbnails 
-displayed at the bottom of the screen.
+The selected files appear in the left side of the Upload interface (2).
 
 .. image:: ../../images/Upload-fichiers2.jpg
     :align: center
 
+Re-order, delete media from the import list
+*******************************************
+
+* **Re-order media** before importing them. Select a file and drag/drop it
+  elsewhere in then grid.
+
+  .. image:: ../../images/Upload-reordonner.jpg
+    :align: center
+
+* **Delete** from the list one or more media by clicking on Cancel below the
+  thumbnails, or
+* **Reset the sending list** by clicking on the **Empty the list** button.
+	
 Choose the collection of destination
 ************************************
 
-Select the collection of destination, in the drop-down list of the available 
-collections.
+* Select the collection of destination, in the drop-down list of the available 
+  collections (3).
 
 .. image:: ../../images/Upload-prezone3.jpg
     :align: center
 
-Apply status
-************
+Apply statuses
+**************
 
-If necessary, apply the :term:`status` (optional).
+* If necessary, apply statuses to media.
 
 .. image:: ../../images/Upload-zone3.jpg
-    :align: center
-
-Reorder the media
-******************
-
-If necessary, the user can reorder the media before importing them.
-Select a file and drag and drop it elsewhere in the list. The user can also 
-choose to take out from the list one or several images by clicking on the Cancel
-button under each thumbnails, or even reset the sending list by clicking on the
-button **clear the list**.
-Otherwise, click on **Send** to transmit the files towards *Phraseanet*.
-
-.. image:: ../../images/Upload-reordonner.jpg
     :align: center
 
 Transmit the media
 ******************
 
-When the user clicks on **Send**, all the media are transferred towards the 
-selected *Phraseanet* collection.
-The upload is represented by progress on the right side of the window.
-(« Transmitted files »).
+* Click on **Send* to import media in Phraseanet.
+
+All  the media are transfer in the selected collection.
+Progress bars indicate the progress of the transfer in the **Files transmitted**
+section (4).
 
 .. image:: ../../images/Upload-zone4.jpg
     :align: center
 
-A general progress bar and a progress bar per document allow to follow the state
-of transfer.
+After the transfer, the transmitted media are viewable in the Production and
+Classic interfaces.
 
-During the transfer, media are added to the collection of destination.
+.. note::
 
-After the transfer, media are transmitted and available for consultation in the
-interfaces *Phraseanet Production* (consultation and documents management) and
- *Classic*(consultation only).
+	Other adding possibilities are possible, like using a FTP directory. It
+	consists in importing the files contained in a directory using an archiving
+	task.
 
-Quarantine
+The Quarantine
 --------------
 
-During the addition of files, some files can be placed in **Quarantine**.
-
-Click on the tab **Quarantine** to display it from the *Upload* window.
-
-.. image:: ../../images/Upload-Quarantaine0.jpg
-    :align: center
-
-The quarantine is a dedicated space where are located the files awaiting actions
-from the user.
-By default, the quarantine is only activated if some files are identified as
-duplication of existing documents previously uploaded by default. The analyse 
-relies on the examination of a unique universal identifier. 
-(UUID for *Universally Unique IDentifier*).
-
-Quarantine also allows to isolate some files that don't fulfil the relevant
-criteria determined by the administrator system.
-
-For more information about the setting of additional criteria of quarantine
-retention, consult the dedicated paragraph at **Custom services** on
-:doc:`this page<../../../Admin/Configuration>`.
-
-Durin the *upload*, a media placed in quarantine is notified by a red colour 
-symbol.
+During the addition of files, some files can be placed in **Quarantine** : 
+they are notified by a red colour symbol and notifications can be sent by the
+system.
 
 .. image:: ../../images/Upload-Quarantaine2.jpg
     :align: center
 
-In the quarantine space, the reason why the file is located in quarantine is 
-indicated for each file : (duplication, mismatch with the eligibility criteria
-(format, colorimetry, dimensions)...*etc*.
+.. note::	
 
-Three choices are offered to the user :
+	By default, the files that are already in at least one media of the
+	destination base (checked using the 
+	:term:`Universally Unique Identifier <Universally Unique Identifier (UUID)>`)
+	are quarantined.
+	
+	Other criteria to quarantine files can be set by administrators (format,
+	colorimetry, dimensions...*etc*.).
+
+.. seealso::
+
+	For more information about the setting of additional criteria of quarantine
+	retention, consult the dedicated paragraph at **Custom services** on
+	:doc:`this page<../../../Admin/Configuration>`.
+	
+Click on the Quarantine tab of the Upload window to display it contents.
+
+.. image:: ../../images/Upload-Quarantaine0.jpg
+    :align: center
+
+
+For each quarantined media, three options are possible :
 
 .. image:: ../../images/Upload-Quarantaine1.jpg
     :align: center
 
 * **Add** the file as a new record in the initially chosen collection.
 * **Remove** the file
-* **Substitute** the actual file
+* **Substitute** the existing file
 
 The user decide what is the best action to do in order to empty the files queue
 in the quarantine space.
 
-Then go to the next document.
 
-The **Quarantine** can also be entirely removed if necessary. To do so click on 
-the button **Remove the quarantine** at the top left of the screen.
+The Quarantine can also be entirely deleted using the button
+**Remove the quarantine** at the top left of the window.
