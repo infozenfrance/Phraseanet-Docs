@@ -1,5 +1,5 @@
-﻿Displaying the results
-======================
+﻿Results display
+===============
 .. toctree::
     :maxdepth: 3
 
@@ -9,37 +9,33 @@
 	browse through media assets in *Phraseanet*.
 
 	*Production* is an interface dedicated to viewing, searching, managing and
-	editing documents, whereas the *Classic* is only for searching and viewing
-	documents with older browsers.
+	editing documents, depending on the user rights. It as the default interface
+	when connection for the first time.
+	
+	*Classic* is only for searching and viewing documents with older browsers.
+	The specifics of this interface are not covered in this guide.
 
-.. figure:: ../../images/Production-general.jpg
+Production Interface
+--------------------
+
+Work area
+*********
+
+The work area of Production is divided in 4 parts :
+
+.. figure:: ../../images/Production-zones.jpg
     :align: center
 
-*Phraseanet Production Interface*
-
-.. note::
-
-	The results area, in *Prod* (above) or in *Classic* (below), is the central
-	area where the pictures are displayed.
-
-*Phraseanet Classic Interface*
-
-.. figure:: ../../images/Classic-interface2.jpg
-    :align: center
-
-Introduction to the display area
---------------------------------
-
-In *Production*:
-The **Actions Palette** is on the top of the page, above the results area. It
-allows to act on the documents.
-For more information, refer to the page dedicated to the :doc:`Actions Palette <Actions>`.
-
+* **1. The search form** allows to search media and stories
+* **2. The display area** displays the results of a search
+* **3. The work area** regroups the baskets and stories tab, the suggestions tab
+  and the Thesaurus tab. It is minimizable.
+* **4. The Actions palette** allows to act on records. Refer to the dedicated
+  page in :doc:`Actions Palette<Actions>`.
+	
 The lower banner allows access to the **Display preferences**, informs on the
-results number and displays a pagination of the results.
-The pagination allows to move from page to page by clicking on the page number,
-move to the end of the selection by clicking *Next* and come back by clicking on
-*Back*.
+results number and displays a pagination of the results. This index allows to
+move through the results.
 
 .. note::
 
@@ -48,202 +44,271 @@ move to the end of the selection by clicking *Next* and come back by clicking on
 To access a specific page, modify the page number then validate by pressing the
 **Enter** key of the keyboard.
 
-.. image:: ../../images/Display-NbResults.jpg
+.. image:: ../../images/Afficher-Nbreponses.jpg
     :align: center
 
-The thumbnails have a presentation title. This presentation title is
-customizable by the functional Administrators of the application.
+Search results presentation
+***************************
+
+The search results are presented as a grid or a list, depending on the
+:doc:`users preferences<Customize>`.
+The thumbnails have a presentation title customizable by the Administrators.
 
 .. note::
 
-	How to customize the displayed documents title under the thumbnails in 
-	Phraseanet ? :doc:`Refer to the Administration section of the guide
-	<AdministrationBasesCollections>`. 
+	To customize the documents title displayed under the thumbnails, refer to
+	:doc:`the Administration section <AdministrationBasesCollections>`. 
 
-**The :term: `Collection` of the document is displayed in the bottom left corner
-:**
+**The name of the document's collection is displayed in the bottom left corner:**
+of the thumbnail. It can be replaces by a mini logo.
 
-.. image:: ../../images/Display-ColName.jpg
+.. image:: ../../images/Affichage-nomcoll.jpg
     :align: center
-
-.. note::
-
-	The name of the collection can be replaces by a collection minilogo
 
 **Mouse-over the thumbnail to display the document's description.**
 This description is made of non blank documentary fields filled by the assets
 manager.
-
-If you have the rights, use the :doc:`Edit <Edit>` function to modify the
-displayed information.
-
 The terms used as search criteria are highlighted.
 
-.. image:: ../../images/Display-highlight.jpg
+.. image:: ../../images/Affichage-surlignagemc.jpg
     :align: center
 
-**The "Magnifying Glass" allows to preview the document** : it is a picture for
-image type documents, a brief video for video type documents, an audio extract
-for audio type documents, a flash animation for some type of office documents.
+**The "Magnifying Glass" allows to preview media**. These previews are linked to
+the nature of the *preview* sub-definitions defined in the settings of the bases
+that contains the displayed media.
 
-.. image:: ../../images/Display-MGlass.jpg
-    :align: center
-
-The document preview in *Phraseanet* is linked to the sub-definition *preview*
-as defined in the Phraseanet base settings that contains the documents.
-
-.. note::
-
-	The Magnifying glass is not visible? Either the user do not have the rights
-	to view the preview images, or there are no preview for the document's type.
+By default, it is : 
+* a picture for image type documents
+* a video extract for video type documents
+* an audio extract for audio type documents
+* a flash animation for some type of office documents
+* a generic icon if the system does not recognize the file type or if it can't
+  generate sub-definitions.
 
 **The "i" icon gives technical information on the original document** : width 
 and height in pixels, type, weight, printing size...
+The information displayed depends on the media type.
 
-.. image:: ../../images/Display-i.jpg
+.. image:: ../../images/Affichage-i.jpg
     :align: center
 
-**For a detailed view**; double click on the thumbnail of a displayed media in
-the results area or a basket. An *overlay* window displays the media preview.
+Double click on the thumbnail of a displayed media for the detailed view.
 
 The detailed view
 -----------------
 
-A detailed view displays a page's documents list as browsable thumbnails.
+.. image:: ../../images/Affichage-vuedetaillee1.jpg
+    :align: center
+
+A detailed view displays a page's documents list as browsable thumbnails :
+
 * The upper part of the window displays the thumbnails feed which is browsable
   (using the mouse or the keyboard) from right to left.
 * The preview image of the selected media is at the center.
-* On the right side, three tabs display the description, the history since the
-  document was added in the Phraseanet base, the popularity statistics.
+* On the right side, three tabs display the description, the history and the
+  statistics on the displayed media.
 * If the document belongs to baskets or stories, the information is displayed
   on the right side of the window.
 
-Click on the thumbnail to display the preview image or use the "left" and
-"right" arrows of the keyboard to browse through the thumbnails.
+Click on the preview image to display the media information or use the "left"
+and "right" arrows of the keyboard to browse.
 
 Note tab
 ********
 
-The *Note* tab allows to preview information from the filled documentary fields
-and on technical information of the document.
-
-
-.. image:: ../../images/Display-DetailedView1.jpg
-    :align: center
+The Note tab displays information from the filled documentary fields
+and technical information of the media depending on the settings.
 
 .. note::
 
-	Depending on the solution settings and the existence of a thesaurus linked
-	to the Phraseanet base, some keywords of the caption are clickable.
-	Underscored with dots, they allow to rebound on other searches.  
+	If a Thesaurus is linked to the base, some terms of the note can be
+	clickable. They allow to bounce on other searches.
 
+.. _Display-History:
+	
 History tab
 ***********
 
-Click on the *History* tab to display the contents.
-
 This tab lists the history of all transactions made by the document's users
-since it was added.
+since it was added to the Phraseanet base.
 
-.. image:: ../../images/Display-DetailedView2.jpg
+.. image:: ../../images/Affichage-vuedetaillee2.jpg
     :align: center
 
+.. _Display-Popularity:
+	
 Popularity tab
 **************
 
-This tab displays the view and download statistics in real time.
+The Popularity tab displays statistics of the displayed media :
 
-* The view statistics displays a graph of the total views.
-* A pie chart shows the access sources of the document
+* Number of views
+* Access source
+* Download statictics.
 
-.. image:: ../../images/Display-DetailedView3.jpg
+.. image:: ../../images/Affichage-vuedetaillee3.jpg
     :align: center
-
-The download statistics	displays day by day, the number of downloads of the
-document.
-
-Click on "Close" or the "Escape" key of the keyboard to close the window.
 
 .. note::
 
-	For detailed statistics reports on a *Phraseanet* base, refer to the page
-	dedicated to :doc:`statistics <Statistics>`.
+	For detailed statistics on a Phraseanet base, refer to the page	dedicated to
+	:doc:`statistics <Statistics>`.
 
-Select documents
-----------------
+Click on "Close" or the "Escape" key of the keyboard to close the window.
 
-To select documents and act (export, delete, etc.), there are two options :
+.. _Display-Selections:
+	
+Records selection
+-----------------
 
-* The simple selection
+Simple selection
+****************
 
 Select a thumbnail in the results area, in the baskets or in the stories by
 clicking on its frame. The background of the thumbnail changes.
 
-.. image:: ../../images/Display-selection1.jpg
+.. image:: ../../images/Affichage-selection1.jpg
     :align: center
 
 This selection colour can be modified by each user in the 
 `Display Preferences<CustomizeInterface>`.
 
-* The multiple selection
+Multiple selection
+******************
 
-**To select a "continuous" set of documents**, press on the "shift" key of the
-keyboard and click on the first thumbnail of the series, then on the last
-thumbnail to select.
-*All the thumbnails between these two thumbnails are selected.*
+**To select a continuous set of documents**
 
-.. image:: ../../images/Display-selection2.jpg
+* Click on the first thumbnail of the series
+* Press and maintain the Shift key of the keyboard
+* Click on the last thumbnail of the series of records to select
+
+All the thumbnails between these two thumbnails are selected.
+
+.. image:: ../../images/Affichage-selection2.jpg
     :align: center
 
-**To select several thumbnails in batch**, press on the "Alt" key of the
-keyboard then click consecutively on the thumbnails to select.
+**To select several thumbnails in batch**
 
-.. image:: ../../images/Display-selection3.jpg
+* Press on the "Alt" key of the keyboard
+* Click consecutively on the thumbnails to select.
+
+.. image:: ../../images/Affichage-selection3.jpg
     :align: center
 
-**To select several thumbnails on several results pages**, first select the
-thumbnails on one page, then click on the next page while pressing the "Alt" key
-of the keyboard, then click on a thumbnail on the new results page.
+**To select several thumbnails on several results pages**
+
+* Select the thumbnails on the first page
+* Click on the next page while pressing the "Alt" key of the keyboard
+* Select thumbnails on the new results page
+* Repeat the operation on other pages is necessary
 
 The number of selected documents is displayed on the bottom left of the
 interface.
 
-.. image:: ../../images/Display-selection5.jpg
+.. image:: ../../images/Affichage-selection5.jpg
     :align: center
 
-* Selecting by media type
+.. note::
+
+    The number of selected records is limited to 400.
+
+	
+Selection by media type
+***********************
 
 To select all the documents of a search depending on their type, click on the
 menu of the selection action (arrow on the right of the white square) then click
 on the type of document to select.
 
-.. image:: ../../images/Display-selectiontype.jpg
+.. image:: ../../images/Affichage-selectiontype.jpg
     :align: center
 
-In this example, only *picture* type documents are selected.
+Selection basket
+----------------
 
-To put a document selection in a Basket :
+A selection basket is intended to regroup media in order to refer to them
+subsequently.
+A default basket exists. Others can be created.
+Simple selections and multiple selections can be made on the documents of an 
+opened basket.
 
-* Create a basket : Go in the tabs bar, under Baskets. Click on the arrow, then
-  click on the green "+" to create a new basket (or story). A window opens, name
-  it then click on Validate.
+.. _Display-Basket-Create:
 
-.. image:: ../../images/Display-Basket.jpg
+Create a basket
+***************
+
+* Click on the pop-up menu of the Basket / Story tab in the work area
+* Click on **New basket**
+
+.. image:: ../../images/Paniers-Creation.jpg
     :align: center
 
-* For more information, refer to the section dedicated to 
-  :doc:`Baskets and Stories <BasketsStories>`.
+An overlay window displays a basket creation form.
 
-.. note::
+* Enter a name for the new basket and a description (optional).
+* Check the box **Add to my current selection** to add preselected documents in
+  the results.
+* Click on the **Create** button
 
-  If a document selection is done, and that the user creates a new basket or
-  story, a checkbox allows to add *the active selection* as contents of the
-  basket or story.
+.. _Display-Basket-Open:
 
-* To make a documents selection in a basket :*
-  In :doc:`the work area <Tabs>`, open then deploy a basket by clicking on
-  its title then select the documents, as seen before. Act as wanted using the
-  action menu of the basket.
+Open or close a basket
+**********************
 
-.. image:: ../../images/Display-Basket2.jpg
+To open and show the contents of a basket, click on its name. **The basket is
+then active**. Repeat the operation to close it.
+
+.. image:: ../../images/Affichage-Panier2.jpg
     :align: center
+
+To show the contents of a closed basket, without opening it, place the cursor on
+the basket name. Its content is displayed in an overlay window.
+
+.. _Display-Basket-Add:
+
+Add media to a basket
+*********************
+
+From a selection in the display area
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Using the mouse, drag-drop the selection of documents in the chosen basket of
+the work area.
+
+It is not necessary to drag a selection on an opened basket for it to be added
+to a basket. This action can also be made on closed baskets.
+
+From the detailed view
+^^^^^^^^^^^^^^^^^^^^^^
+
+Click on the "Basket" icon to add a displayed document to the active basket.
+
+.. _Display-Basket-Detail:
+
+Display the content of a basket in the detailed view
+****************************************************
+
+To display the content of a basket in the detailed view, double click on one of
+the thumbnails of an active basket. The detailed view presents the content of
+the active basket.
+
+.. _Display-Basket-Delete1:
+
+Delete media from a basket
+**************************
+
+In an opened basket, click on the cross under the thumbnail of the document to
+delete from the basket.
+
+.. _Display-Basket-Delete2:
+
+Delete a basket
+***************
+
+To delete a basket, click on the Delete section of the basket's pop-up menu then
+confirm the deletion in the confirmation window.
+
+.. seealso::
+
+	For more features, refer to the section dedicated to 
+	:doc:`Baskets and Stories<BasketsStories>`.

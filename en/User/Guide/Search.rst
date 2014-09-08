@@ -31,59 +31,72 @@ accessible by the user and the media displayed are the result of a
 .. image:: ../../images/Rechercheavancee1.jpg
     :align: center
 
-A set of radio buttons allows to choose if the search is on documents or stories
-In a search on stories, the search is on the indexation sheet of the stories.
-Simultaneous searches on documents and stories is not possible.
-
-.. image:: ../../images/Search-simple.jpg
-    :align: center
-
-To search :
-
-* Type the term(s) to look for in the search forms
-* Launch the search by clicking on **Search**
+**To search stories**, place the radio-button of the search mode in the story
+position. In this mode, the search is on the content of the stories note.
 
 .. note::
 
-	The search engine is not case sensitive and do not distinguish accented
-	characters from others.
+	Simultaneous search on documents and stories is not possible.
+
+To search :
+
+* Type the term(s) to look for in the search form
+* Click on **Search**
+
+The search engine is not case sensitive and do not distinguish accented
+characters from others.
 
 The results are displayed in the display area. The relevance depends on the
 indexation quality of the media and the search query.
-The number of results per page is customizable. Refer to the page
-:doc:`Customize the interface <Customize>` for more information.
 
+.. note::
+
+	The number of results per page is customizable. Refer to the page
+	:doc:`Customize the interface <Customize>` for more information.
+
+Boolean operators and wildcards
+*******************************
+	
 By default, the operator between two terms is the boolean operator **AND**. It
 is therefore not necessary to type it.
 All the terms typed in the form are in the descriptive notes of the displayed
 media of the search.
 
 Other common operators are available :
+
 * The operator **OR** allows to look alternatively for several terms in the
-media notes. For example, if the search is **sea or mountain**, the descriptive
-notes of the displayed media will contain either the word sea, or the word
-mountain, or both.
+  media notes. For example, if the search is **sea or mountain**, the 
+  descriptive notes of the displayed media will contain either the word sea, or
+  the word mountain, or both.
 * The operator **EXCEPT** allows to exclude a term from the search. If the
-search is on beaches not in France, type **beach EXCEPT France**.
+  search is on beaches not in France, type **beach EXCEPT France**.
 * The operator ***** is a wildcard. It allows to truncate the characters on the
-right of the searched term : a search like **natur*** displays the media which
-descriptive notes contain the words starting with "natur" like nature, natures,
-... *etc*.
+  right of the searched term : a search like **natur*** displays the media which
+  descriptive notes contain the words starting with "natur" like nature, natures
+  ... *etc*.
+* **The search between double quotes** is possible : it allows to search for
+  contiguous terms in the media descriptive notes.
 
-The search between double quotes is possible : it allows to search for
-contiguous terms in the media descriptive notes.
+Other options exists using advanced operators.
 
-Other options exists using advanced operators. Refer to the full list of search
-operators on this page.
+.. seealso::
 
+    :doc:`See the full list of these operators <../../FAQ/Media/All-Search-Operators>`
+    in the FAQ.
+
+Specific operators
+******************
+	
 *Phraseanet* has other specific operators :
-* **Tout** or **All** : to search all the documents of the selected Phraseanet
-bases or collections.
-* **Derniers** or **Last** ( with or without specifying a number) displays by
-default the twelve last documents added by Phraseanet base in the selected
-collections. Combined with an integer, the *n* last documents will be displayed.
 
-In a **Last 100** search with three opened Phraseanet bases/collection, the
+* **Tout** or **All** : to search all the documents of the selected Phraseanet
+  bases or collections.
+* **Derniers** or **Last** ( with or without specifying a number) displays by
+  default the 12 last documents added by Phraseanet base in the selected
+  collections. Combined with an integer, the *n* last documents will be
+  displayed.
+
+In a **Last 100** search with 3 opened Phraseanet bases/collection, the
 number of displayed media can be up to 300 (3 times the last 100 added media),
 considering the number of documents for each base or collection is more than 100
 
@@ -99,12 +112,12 @@ A search **London in City** will display the documents that contain the term
 A search **France in Country** will display the documents that contain the term
 **France** in the field labelled **Country**.
 
-.. image:: ../../images/Search-wordincaption.jpg
+.. image:: ../../images/Rechercher-motdanslegende.jpg
     :align: center
 
 .. note::
 
-	In this kind of search, be sure to use the field label as it is in the
+	For a field search, be sure to use the field label as it is in the
 	documentary structure (case sensitive).
 
 Advanced search
@@ -113,178 +126,81 @@ Advanced search
 To display the advanced search form, click on the wheel between the search field
 and the button **Search**.
 
-.. image:: ../../images/AdvancedSearch1.jpg
+.. image:: ../../images/Rechercheavancee0.jpg
     :align: center
 
-An overlay window opens. The window of advanced search is in three parts :
+The window of advanced search is in three parts :
 
-.. image:: ../../images/AdvancedSearch0.jpg
-    :align: center
+* The search form
+* The list of available bases and collections
+* The list of search filters
 
-The upper part of the form is like a standard search.
-
-The left part lists the Phraseanet bases and collections viewable by the user.
 Check or uncheck the Phraseanet bases and collections to search in.
 
-It is possible to un-select all the :term:`Phraseanet bases <Base>` and 
-collections by clicking on "None" or by directly clicking of the
-:term:`Phraseanet bases <Base>` name to select or un-select them one by one, or
-even with the checkboxes for each available collection.
+It is possible to un-select all the :term:`Phraseanet bases<Base>` and 
+collections. Click on "None" or on each of the bases to select or deselect them.
 
 .. note::
 
 	If no collection is selected, then the search is on all the Phraseanet bases
 	and collections of the instance.
 
-The right part displays different filters to narrow the search results :
+The available filters allow to narrow the search results :
 
 * Activate or de-activate the search by :term:`Stemme`
-* Sort by keywords of one or more specific fields
-* Sort by status
-* Sort by date ranges, ...
+* Search one or more specific fields
+* Filter by status
+* Limit the searches with periods
 
-The documents are displayed in the *Results* window.
-
-.. note::
-
-	**The options of the advanced search stays**. The choices used in the
-	advanced search window are kept as long as they are not modified.
-	In the simple search form, if there are search options, the form background
-	will be yellow.
+**The options of the advanced search stays**. The choices used in the advanced
+search window are kept as long as they are not modified.
+If there are search options, the form background will be yellow.
 
 Search using the Thesaurus
 --------------------------
 
-If a Thesaurus is activated, the search and the results review can be enhanced.
+If a Thesaurus is activated, the search and the results review can be greatly 
+enhanced.
+
+Display the Thesaurus
+*********************
+
 The search using the Thesaurus is launched from the Thesaurus tab of the work
 area.
 
-.. image:: ../../images/Search-Thesaurus.jpg
+.. image:: ../../images/Recherche-Thesaurus.jpg
     :align: center
 
-Refer to the Thesaurus section on :doc:`this page <Tabs>`.
+It presents a tree of the deployed thesaurus where the nodes and terms are
+clickable.
 
-Search operators available in Phraseanet
-----------------------------------------
+* Click on the "+" of the nodes to deploy them and browse through the terms it
+  contains.
+* Double click on a term to start searching.
 
-Here is the list of the search operators available in *Phraseanet*.
+**A search in the thesaurus terms is possible** using a form.
+Include at least the first three characters of a term to trigger the
+auto-completion system. 
 
-Boolean operators
-*****************
+.. image:: ../../images/Rechercher-thesaurus3.jpg
+    :align: center
 
-The conjunction operator *AND*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Use the suggestions
+*******************
 
-Used by default, it is not mandatory to type it, the operator *AND* displays the
-media that contains all the typed terms in their descriptive note.
+This tab displays suggestions related to the user search and the terms contained
+in the thesaurus of the searched bases.
 
-The join operator *OR*
-^^^^^^^^^^^^^^^^^^^^^^
+By going up the terms of the Thesaurus, the user is suggested terms to
+specify its research or to expand it with a larger field.
 
-It allows to search for several terms in the media notes.
-If the search is **sweet OR sour** the descriptive sheets of the media will
-contain either the word sweet, or the word sour, or both.
+Each suggestion is clickable and allows to launch a new *Thesaurus* search.
 
-The negation operator *EXCEPT*
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-It allows to exclude terms from the search.
-
-The common operators **ALL** and **LAST**
-*****************************************
-
-* *all* : to search all the documents in the selected Phraseanet
-  :term:`bases <Base>` and collections.
-
-* *last* (with no specific number) displays by default the last 12 documents
-  added in the Phraseanet base.
-
-The operator *last* is valid per opened Phraseanet :term:`bases <Base>` and
-collections.
-
-The substitution operators
-**************************
-
-The wildcard *****
-^^^^^^^^^^^^^^^^^^
-
-Tue truncation character *****, used on the right of a string allows to search
-descriptive notes that contains terms starting with the characters before the
-asterisks.
-
-The replacement character **?**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-A character can be replaced by **?**.
-So, the search *wo?ds* displays the media which descriptive notes contains terms
-like *words* or *woods*.
-
-The proximity operators
-***********************
-
-The operator **PRES**
-^^^^^^^^^^^^^^^^^^^^^
-
-It allows to fetch all the media in which the result of the term 1 is at a 
-specific distance (n) of the term 2.
-
-For example, (Eiffel PRES 2 Tower) will select all the records in which there is
-a maximum distance of 2 words between *Eiffel* and *Tower*.
+.. image:: ../../images/Onglet-Propositions.jpg
+    :align: center
 
 .. note::
 
-	If no distance is specified, the PRES operator is handled like a boolean
-	operator AND.
-
-The operator **BEFORE**
-^^^^^^^^^^^^^^^^^^^^^^^
-
-It allows to fetch all the records in which the result of the term 1 is before
-the term 2 at a specified distance (n). For example, (Eiffel BEFORE Tower) will
-select all the records in which the term *Eiffel* is located, at max, two words
-before the word *Tower*.
-
-.. note::
-
-	It is not mandatory to specify a distance. If the distance is not specified,
-	the default value is 12.
-
-The operator **AFTER**
-^^^^^^^^^^^^^^^^^^^^^
-
-It allows to fetch all the records in which the result of term 1 is after the
-term 2 at a specified distance (n). For example, (Tower AFTER 2 Eiffel) will
-select all the records in which the word *Tower* is located, at max, two words
-after the word *Eiffel*.
-
-.. note::
-
-	It is not mandatory to specify a distance. If the distance is not specified,
-	the default value is 12.
-
-.. warning::
-
-	For all the operators stated earlier, using double quotes on the operator
-	will cancel its function.
-
-Numerical comparisons
-*********************
-
-It is possible to select documents comparing dates and numbers, for documentary
-fields typed as Date or Number.
-So, the search **date > 14/07/2012** displays the media that have a field
-labelled date containing a date before the 14th of July 2012.
-
-The comparison operators are : >, <, =, <=, >=, between (the limits are included
-).
-
-The days (DD), months(MM), years (YYYY) can be staggered or separated with a
-slash /, a dash -, a space.
-
-* Search on one day: DD/MM/YYYY, YYYYMMDD, DD/MM/YY, YYYY/MM/DD,
-  DD-MM-YYYY, YY-MM-DD
-* Search on one month: MM/YY, YYYY/MM, YYYYMM, MM/YYYY
-* Search on one year: YYYY
-
-The dates fields type is strict. The user can prefer to search using an
-advanced search window.
+	The relevance of the suggestions in this tab are linked to the construction
+	of the deployed thesaurus.
+	

@@ -6,230 +6,157 @@
 
 .. topic:: The essential
 
-    Numerous statistics are available in *Phraseanet*. In Production, stats on
+    A lot of statistics are available in Phraseanet. In Production, stats on
 	the documents are published in the tabs of the detailed view.
 	
 	**Report** gives more detailed informations on the site's activity.
 
-Reports are sorted in 4 tabs :
+Statistics in Production
+------------------------
 
-.. image:: ../../images/Statistiques-General.jpg
-    :align: center
+Statistics on the records are available in two tabs of the detailed view.
 
-At the launch of a module, a dashboard offers a set of general statistics on
-a one month period.
+Document's history
+******************
 
-The three other tabs offer statistics relating to the *users connections*, the
-*downloads*  of documents and the *website activity*.
+.. seealso::
+
+    :ref:`Refer to the paragraph dedicated to records history<Display-History>`.
+
+Document's popularity
+*********************
+
+.. seealso::
+
+    :ref:`Refer to the paragraph dedicated to records popularity<Display-Popularity>`.
+
+Statistics in *Report*
+----------------------
+
+Report regroups the statistics on connections, downloads, and a site activity.
+A dashboard sums up these main information.
+
+**To start a Report**, click on the corresponding section in the menu bar then
+generate the report for the chosen period.
 
 Dashboard
----------
-
-Statistics offered by the dashboard are global for all the Phraseanet
-:term:`bases <base>`and collections published from the website and based on a 
-rolling month.
-
-.. image:: ../../images/Statistiques-Tableaudebord.jpg
-    :align: center
-
-The dashboard includes numerous statistics data.
+*********
 
 .. image:: ../../images/Statistiques-Tableaudebord2.jpg
     :align: center
 
-Here is a list of the available tables and their contents.
+The dashboard gives general information about :
 
-* **Activity per hour** : Content and information not definitive(curves).
-* **Activity per day** : Content and information not definitive(curves).
-* **Added documents** : Number of documents added in a day (Histogram).
-* **Edited documents** : Number of edited documents per day(Histogram).
-* **Downloads and connections accumulation** : Total number of downloads, 
-    documents of all sub definitions on one month.
-* **Total number of users connections**
-* **Most active users** (Tableau)
-* **Preview of the most downloaded media** (Table)
-* **Most frequent questions** : List of the 10 most frequent questions asked by 
-    the users
-* **Volumetry of the most frequent question on Phraseanet** : List of the users
-    who ask the more questions.(Table)
-* Websites where the documents are the most consulted.(Table)
+* The number of connections to the site
+* Addition of documents
+* Records edition
+* The number of original documents download, of sub-definitions, and the
+  bandwidth they represent on the network.
+* The most active users (questions asked)
+* The 10 top frequently asked questions
+* The sites where the media are the most viewed
 
-The three following tabs: `Connection`_, `Downloads`_ and
-Website activity`_, display the same way : The user has to select 3 criteria in
-order to have access to the statistics :
-
-* `Period`_
-* `Bases`_
-* `Reports types`_
-
+These statistics are detailled in the Connections, Downloads and Site activity
+tabs .
 
 Connections
------------
+***********
 
-The user click on the "Connection" tab if he wants to see how many connections 
-have been done on his Phraseanet system.
+The Connections tab gives information about connections on Phraseanet instance.
+Three type of reports are available :
 
-Period
-******
+* The number of connections per user
+* The connections history
+* The details on platforms and web browsers used by the users
 
-By default, the period is defined on the previous month.
-To change the interval, click on one of the two date input areas.
+To generate these reports : 
 
-Use an interval proposed by the three calendars.
-To go back to a distant past, use the first calendar.
-
-.. image:: ../../images/Statistiques-Connexions1.jpg
-    :align: center
-
-Phraseanet Bases
-****************
-
-Select the:term:`bases <base>` and collections from which the statistics have to
-be obtain from.
-
-Click on **Every bases** to display the list of the available data bases.
-Two buttons allow to to select/deselect all the :term:`bases
-<base>`.
-
-.. image:: ../../images/Statistiques-Connexions2.jpg
-    :align: center
-
-A pop-up menu (arrow on the bottom left corner) allows to display 
-collections list of the:term:`bases <base>`, in order to refine the reports, by
-unchecking the collections to exclude.
+* Choose a period
+* Select bases and collections on which the statistics are calculated
+* Select a type of report
 
 .. note::
-    The selected options for the bases / collections intervals are stored from a 
-	tab to another.
 
-Types of report
-***************
-
-Lastly, it is necessary to choose a type of report. Three choices are 
-available :
-
-* Set by users :
-
-List and frequency of users connections
-
-* All the connections :
-
-List of all the connections made by each user presented by default with a  
-chronological criteria.
-
-* Platforms and browsers :
-
-Set of lists and charts about connections by type of browsers, operating system 
-or display resolution used by the users.
-This report also presents the Phraseanet modules used for the connections.
-Lastly, a list and a chart with the the most used operating systems / browsers 
-couples  for the connections.
-
-Click on one of the types of report, and the statistics display immediately.
-
-.. figure:: ../../images/Statistiques-Connexions3.jpg
-    :align: center
-
-    Example with a platforms and browsers report
+    The choices made are persistent from one tab to the other.
 
 Downloads
----------
+*********
 
-The **Download** tab appears the same way as the `Connexion`_ tab :
-Select the period, then the :term:`bases <base>` and collections.
+The Downloads tab lists the downloads for a specified period, by bases and
+collections : 
 
-The choice of report's type changes. It is possible to display statistics on the
-basis of reports :
+* By user
+* By chronological order
+* By day
+* By documents of a base
 
-* By users :
+Links on the data of the **RecordID** column allows to display a note of the
+downloaded documents. This note contains : 
 
-For each user who has done some downloads, this report displays the number and
-the weight of the documents and sub definitions.
+* A preview
+* Metadatas like the date of creation in the base, the title or the size
 
-* All the downloads :
-
-List of the whole of the downloads done on the interval.
-This table proposes features of gathering, sorting, ...*etc*.
-
-* By day :
-
-Total number of downloads done per day and distribution per documents and 
-sub-definitions.
-
-* By document, on the Phraseanet base :
-
-Activates an option that allows to check if a specific document using its
-RecordId, or if a document for which a term to search is found in a field,
-has been downloaded over the period.
-
-.. figure:: ../../images/Statistiques-Telechargements.jpg
-    :align: center
-
-    Example of statistics report per document on the Phraseanet base.
+Click on the cross on the top right of the overlay window to quit the note and
+go back to the downloads list.
 
 Website Activity
-----------------
+****************
 
-This tab displays the same way as the two previous tabs.
-Select the period and the :term:`base` then the available report's types:
-
-* **All the questions** chronological list of questions asked by the users.
-* **Most usual questions** list of the most usual questions and the number of
-    occurrences returned.
-* **Unanswered questions** list of the unanswered questions
-* **Website activity** gives information relating to the activity per hour
-  (average).
-
-.. figure:: ../../images/Statistiques-Activite.jpg
+.. image:: ../../images/Statistiques-Activite.jpg
     :align: center
 
-    Example of report including data relating to the most usual questions.
+The **Website activity** tab regroups the statistics on the questions asked
+during searches, on the connections during the last hour and on the activity of
+documents.
 
-Reports
--------
+The reports are generated on demand after selecting a period and bases and
+collections
 
-Reports appear as tables, lists and charts that display expected information and
-suggest some options. Reports precise the date interval of the report.
+Activity related to questions
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Reports display all the results from the requested report. Some of the tables
-offer some options to display more, or to reduce the number of columns.
+Three types of reports are on questions asked : 
 
-Click on the wheel to display the list and to select / deselect the display 
-of specific columns.
+* **The questions history** lists the questions asked by the users in
+  chronological order.
+* **The most frequently asked questions** lists the most frequent searches and
+  the average number of answers.
+* **The unanswered questions** lists the searches with no results and the number
+  of times they were asked.
+  
+Activity per hour
+^^^^^^^^^^^^^^^^^
 
-Most of the tables, lists and charts are printable by clicking on the printer 
-icon.
+This report gives a graph of the number of average connections per 24 hour
+period in over the selected dates.
 
-Reports are generated by the :term:`base` and take account of the collections 
-exclusion filters.
+Documents
+^^^^^^^^^
 
-To browse in the list "tabs" of the :term:`bases <base>`, position the cursor 
-at the beginning or at the end of the list.
+This report allows to get information of the activity of documents. A list of
+choices allows to choose the actions made on the documents : 
 
-.. figure:: ../../images/Statistiques-Bases.jpg
-    :align: center
-
-Some columns of the reports tables offered are implemented with :
-
-* sort functions
-* filter functions
-
-Filters are relating to available values in the column.
-
-* Logical merging by identical values.
-
-Some values in the columns are underlined links recognizable by mousing over 
-them. By clicking on one of those values an :term:`Overlay` window opens and 
-displays some information relating to the value.
-
-Reports are spread on several pages when they are composed of a significant 
-number of lines.
-
-This information is displayed at the bottom of the page, and it is possible to :
-
-* Change the page
-* Display more lines by changing the entered value.
+* Pushed documents
+* Added documents
+* Edited documents
+* Validated documents
+* Documents sent to recipients
 
 .. note::
-    The total number of available lines correspond to the total number of 
-	results.
+
+	A setting option allows to anonymize reports. In this case the account IDs
+	do not appear in the generated reports.
+	Refer to the Report display options section of the Admin Settings.
+
+Customize and export reports
+****************************
+
+It is possible to hide the contents of columns in the generated reports.
+Click on the wheel to display the overlay window allowing to hide the contents
+of the columns.
+
+Some column headers allows to sort is needed.
+
+Most of the generated reports can be exported as PDF or CSV files. Click on the
+dedicated icons to export to obtain the reports in the desired format. 
+	
