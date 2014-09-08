@@ -5,10 +5,10 @@
 
 .. topic:: The essential
 
-	Two features of Phraseanet allows to publish and to broadcast media from an
-	asset : *Publication* and *Bridge*
+    Two features of Phraseanet allows to publish and to broadcast media from an
+    asset : *Publication* and *Bridge*
 
-.. _Publish-Publications:	
+.. _Publish-Publications:    
 
 Publish media
 -------------
@@ -41,7 +41,7 @@ Fill the form :
 .. seealso::
 
     Refer to the Publications section of Phraseanet Admin to 
-	:ref:`create feeds<Create-a-publication-feed>`.
+    :ref:`create feeds<Create-a-publication-feed>`.
 
 * Click on Publish
 
@@ -59,7 +59,7 @@ The Bridge allows to publish media to external sites, like :
 * YouTube
 * Dailymotion
 
-To publish documents to these sites, select the documents, connect a ``Flickr`_,
+To publish documents to these sites, select the documents, connect a `Flickr`_,
 `YouTube`_ or `Dailymotion`_ account to Phraseanet, then publish
 using **Bridge**.
 

@@ -1,20 +1,20 @@
-﻿Actions on records
+Actions on records
 ==================
 .. toctree::
     :maxdepth: 3
 
 .. topic:: The essential
 
-	The actions on the records are made with commands of the actions palette.
+    The actions on the records are made with commands of the actions palette.
 
-	The :term:`main palette<Actions Palette>` under the search form allows to
-	act on the selected documents in the display area.
+    The :term:`main palette<Actions Palette>` under the search form allows to
+    act on the selected documents in the display area.
 
-	In the work area, the actions palette of the opened basket or story allows
-	to act on the records it contains or that are selected.
-	
-	**The actions are accessible depending on the users rights**. Some of these
-	actions are basic features while others are advanced features.
+    In the work area, the actions palette of the opened basket or story allows
+    to act on the records it contains or that are selected.
+    
+    **The actions are accessible depending on the users rights**. Some of these
+    actions are basic features while others are advanced features.
 
 
 .. image:: ../../images/Actions-PaletteBeta.jpg
@@ -28,8 +28,8 @@ Export and Print
 
 .. seealso::
 
-	:doc:`Refer to the Export and Printing section in Phraseanet<Export>` in the
-	fundamentals.
+    :doc:`Refer to the Export and Printing section in Phraseanet<Export>` in the
+    fundamentals.
 
 The advanced features
 ---------------------
@@ -46,7 +46,7 @@ one or by batch.
 
 .. seealso::
 
-	:doc:`Refer to the Edit section <Edit>`.
+    :doc:`Refer to the Edit section <Edit>`.
 
 In the main palette, the pop-up menu of the button regroups the functions
 :ref:`Properties<Actions-Properties>` and :ref:`Move<Actions-Move>`.
@@ -70,13 +70,13 @@ rights, restricts the access on a users range.
 
 .. note::
 
-	28 statuses are customizable in Phraseanet Admin. They can be implemented
-	for *workflow* needs or for access restrictions on records by custom tasks.
-	A status change is also directly available from the :doc:`Edit <Edit>`
-	window.
+    28 statuses are customizable in Phraseanet Admin. They can be implemented
+    for *workflow* needs or for access restrictions on records by custom tasks.
+    A status change is also directly available from the :doc:`Edit <Edit>`
+    window.
 
 To edit records statuses :
-	
+    
 * Select one or more records in the display area or in the opened basket or
   story
 * Click on the Properties button in the corresponding actions palette
@@ -85,10 +85,10 @@ To edit records statuses :
 
 .. note::
 
-	The statuses edition is also available in the Edit window.
+    The statuses edition is also available in the Edit window.
 
-	**The interfaces being asynchronous**, the statuses symbols are refreshed
-	when the interface is refreshed.
+    **The interfaces being asynchronous**, the statuses symbols are refreshed
+    when the interface is refreshed.
 
 Modify the documents type
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -118,9 +118,9 @@ same Phraseanet base.
 * Click on Validate to save the changes
 
 .. note::
-	
-	Asynchronous, the interface does not handle real time change of collections.
-	Search again for the media to check if they were successfully moved.
+    
+    Asynchronous, the interface does not handle real time change of collections.
+    Search again for the media to check if they were successfully moved.
 
 Push, validation, bridge and publications
 *****************************************
@@ -132,14 +132,15 @@ applications.
 
 .. seealso::
 
-	* Refer to the section dedicated to :doc:`Push and validation <Push>`
-	* Refer to the section dedicated to the :ref:`Bridge<Publish-Bridge>`
-	* Refer to the section dedicated to :ref:`publications<Publish-Publications>`
+    * Refer to the section dedicated to :doc:`Push and validation <Push>`
+    * Refer to the section dedicated to the :ref:`Bridge<Publish-Bridge>`
+    * Refer to the section dedicated to :ref:`publications<Publish-Publications>`
 
 Tools
 *****
 
 Tools regroups the actions allowing to act on :
+
 * **The thumbnails or preview images** (re-generation, substitution, rotation,
   preview thumbnail for videos)
 * **The substitution of original documents or sub-definitions** if the feature

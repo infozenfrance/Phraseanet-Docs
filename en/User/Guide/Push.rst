@@ -7,17 +7,17 @@
 .. topic:: The essential
 
     The *Push* and the *Validation* are two actions intended to transmit 
-	documents to users, whether they have Phraseanet accounts or not.
+    documents to users, whether they have Phraseanet accounts or not.
 
     The *Push* is used to push documents toward those users, the *Validation*,
-	is intended to collect advisory opinion from the users about media.
+    is intended to collect advisory opinion from the users about media.
 
     A `Lists manager`_ allows to create sending lists to answer some 
-	repetitive sending towards the same users.
+    repetitive sending towards the same users.
 
 .. image:: ../../images/Push-feedback_layout-1.jpg
     :align: center
-	
+    
 The Push
 --------
 
@@ -55,24 +55,24 @@ his account is created.
 .. note::
 
     The users listed in the recipient area can be gathered and saved in the
-	sending list.
-	
+    sending list.
+    
     To save a sending list, fill in the fields of the form located on the left 
-	of the recipient area then save by clicking on the icon :
+    of the recipient area then save by clicking on the icon :
 
     .. image:: ../../images/Push-icone-disquette.jpg
         :align: center
 
     The created list is then displayed in the sending lists area. 
 
-.. seealso::	
-	
+.. seealso::    
+    
     Refer to the functionalities of the :ref:`list manager<Push-Manager>`.
 
 .. warning::
 
     To be able to create users from Pushes and Validations, the user must have
-	the required users management rights.
+    the required users management rights.
 
 To grant some specific rights on high definition downloads,(or *Grant rights*)
 on the documents pushed to users of the sending list, two methods are available:
@@ -181,7 +181,7 @@ To create a new list in the Lists manager, click on the link *Add*.
 .. note::
 
     A research and filters system allow to limit the display of the users by
-	login, family name or first name, activity, company...*etc.*
+    login, family name or first name, activity, company...*etc.*
 
 * To go back to the list's summary, click on the button *See*.
 
@@ -219,5 +219,5 @@ the interface. Confirm (or cancel) the deletion.
 .. note::
 
     If the name of the deleted list still appears in the list of the sending
-	lists, click on the *Refresh* button on the left of the interface.
+    lists, click on the *Refresh* button on the left of the interface.
     

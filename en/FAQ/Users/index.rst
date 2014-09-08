@@ -10,5 +10,5 @@ User management
    :maxdepth: 1
    :glob:
 
-   User-mass-upload
+   Users-mass-upload
    Add-application

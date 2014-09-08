@@ -5,19 +5,19 @@
 
 .. topic:: The essential
 
-	The interface *Phraseanet Admin* allows the administration and customization
-	of Phraseanet.
+    The interface *Phraseanet Admin* allows the administration and customization
+    of Phraseanet.
     The screens and forms allow to manage and monitor the solution, sign up and
-	set up the users rights, deploy and manage Phraseanet Bases and documentary
-	collections.
+    set up the users rights, deploy and manage Phraseanet Bases and documentary
+    collections.
 
 The *Phraseanet Admin* interface has a frame on the top-left of the screen that
-displays a menu listing the different administration sections.	
+displays a menu listing the different administration sections.    
 
 If a user does not see these sections, it is because its
 :doc:`rights <AdministrationUsers>` do not allow it.
 
-.. image:: ../../images/Administration-Left.jpg
+.. image:: ../../images/Administration-gauche.jpg
     :align: center
 
 Some of these sections have sub-sections. Click on the **+** buttons to display

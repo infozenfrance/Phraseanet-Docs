@@ -3,7 +3,7 @@ Customize Production
 
 .. topic:: The essential
 
-	The interface Production can be tailored by the user depending on his needs. 
+    The interface Production can be tailored by the user depending on his needs. 
 
 Adjust the display area size
 ----------------------------
@@ -62,7 +62,7 @@ when login in to *Phraseanet Production* and *Classic* interfaces.
     :align: center
 
 Click on the cross to quit the *Preferences* window. The modified preferences
-are committed during the next display refresh.	
+are committed during the next display refresh.    
 
 Sorting and displaying preferences for baskets and stories
 **********************************************************
@@ -97,5 +97,5 @@ The notifications are completed with eMails received at the user's address.
 
 .. seealso::
 
-    Refer to the à :ref:`Information tab <PhraseanetMenu-Information>` of the
-	account settings to act on the notifications reception.
+    Refer to the :ref:`Information tab <PhraseanetMenu-Information>` of the
+    account settings to act on the notifications reception.

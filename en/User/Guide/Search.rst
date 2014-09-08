@@ -5,17 +5,17 @@
 
 .. topic:: The essential
 
-	The media and stories searches in *Phraseanet* are made through a full text
-	search engine that works just like a standard search engine.
+    The media and stories searches in *Phraseanet* are made through a full text
+    search engine that works just like a standard search engine.
 
-	Combined with common search operators, these searches are more relevant.
+    Combined with common search operators, these searches are more relevant.
     Extended searches can be made with other less used operators. It is also
-	possible to search in specific fields if needed.
+    possible to search in specific fields if needed.
 
-	If a Thesaurus is activated, the search and review of the results can be
-	greatly enhanced.
-	
-	The indexation quality is still the dominating factor.
+    If a Thesaurus is activated, the search and review of the results can be
+    greatly enhanced.
+    
+    The indexation quality is still the dominating factor.
 
 Full text search
 ----------------
@@ -36,7 +36,7 @@ position. In this mode, the search is on the content of the stories note.
 
 .. note::
 
-	Simultaneous search on documents and stories is not possible.
+    Simultaneous search on documents and stories is not possible.
 
 To search :
 
@@ -51,12 +51,12 @@ indexation quality of the media and the search query.
 
 .. note::
 
-	The number of results per page is customizable. Refer to the page
-	:doc:`Customize the interface <Customize>` for more information.
+    The number of results per page is customizable. Refer to the page
+    :doc:`Customize the interface <Customize>` for more information.
 
 Boolean operators and wildcards
 *******************************
-	
+    
 By default, the operator between two terms is the boolean operator **AND**. It
 is therefore not necessary to type it.
 All the terms typed in the form are in the descriptive notes of the displayed
@@ -81,12 +81,12 @@ Other options exists using advanced operators.
 
 .. seealso::
 
-    :doc:`See the full list of these operators <../../FAQ/Media/All-Search-Operators>`
+    :doc:`See the full list of these operators <../../FAQ/Media/All-search-operators>`
     in the FAQ.
 
 Specific operators
 ******************
-	
+    
 *Phraseanet* has other specific operators :
 
 * **Tout** or **All** : to search all the documents of the selected Phraseanet
@@ -117,8 +117,8 @@ A search **France in Country** will display the documents that contain the term
 
 .. note::
 
-	For a field search, be sure to use the field label as it is in the
-	documentary structure (case sensitive).
+    For a field search, be sure to use the field label as it is in the
+    documentary structure (case sensitive).
 
 Advanced search
 ---------------
@@ -137,13 +137,13 @@ The window of advanced search is in three parts :
 
 Check or uncheck the Phraseanet bases and collections to search in.
 
-It is possible to un-select all the :term:`Phraseanet bases<Base>` and 
+It is possible to un-select all the :term:`Phraseanet bases<Phraseanet Base>` and 
 collections. Click on "None" or on each of the bases to select or deselect them.
 
 .. note::
 
-	If no collection is selected, then the search is on all the Phraseanet bases
-	and collections of the instance.
+    If no collection is selected, then the search is on all the Phraseanet bases
+    and collections of the instance.
 
 The available filters allow to narrow the search results :
 
@@ -201,6 +201,6 @@ Each suggestion is clickable and allows to launch a new *Thesaurus* search.
 
 .. note::
 
-	The relevance of the suggestions in this tab are linked to the construction
-	of the deployed thesaurus.
-	
+    The relevance of the suggestions in this tab are linked to the construction
+    of the deployed thesaurus.
+    

@@ -40,7 +40,8 @@ users that can access it.
 or
 
 * Use a preset of the FTP Server section of the
-:doc:`user account preferences<../../User/Guide/PhraseanetMenu>`
+  :doc:`user account preferences<../../User/Guide/PhraseanetMenu>`
 
 A button Test allows to test the connection to the FTP server.
 A button Send allows to send files to this remote server.
+

@@ -26,13 +26,13 @@ The user must also have a valid eMail address.
 
 .. note::
 
-	On Windows PC, Internet Explorer 7 is the minimum recommended version.
-	However, *Phraseanet Classic" allows access to the assets using obsolete
-	web browsers like Internet Explorer 6.
+    On Windows PC, Internet Explorer 7 is the minimum recommended version.
+    However, *Phraseanet Classic* allows access to the assets using obsolete
+    web browsers like Internet Explorer 6.
 
-	The use of Internet Explorer 6 is not recommended for the other Phraseanet
-	modules, as it is not recommended to use *Phraseanet Classic" with recent
-	browsers.
+    The use of Internet Explorer 6 is not recommended for the other Phraseanet
+    modules, as it is not recommended to use *Phraseanet Classic* with recent
+    browsers.
 
 The Phraseanet modules
 ----------------------
@@ -83,8 +83,8 @@ specific documents sent by *Phraseanet* users. Validation features allows to
 
 .. seealso::
    
-	To send, share, compare documents in *Phraseanet Lightbox*, refer to the
-	section dedicated to :doc:`Push and Validation <Push>`.
+    To send, share, compare documents in *Phraseanet Lightbox*, refer to the
+    section dedicated to :doc:`Push and Validation <Push>`.
 
 Upload
 ******
@@ -99,7 +99,7 @@ tool.
 
 .. seealso::   
    
-	Refer to the section dedicated:doc:`to upload documents<Upload>`.
+    Refer to the section dedicated:doc:`to upload documents<Upload>`.
 
 Administration
 **************
@@ -111,9 +111,9 @@ declare documentary structures, create users and manage their rights.
 .. image:: ../../images/General-Administration.jpg
     :align: center
 
-.. seealso::	
-	
-	:doc:`Refer to the section dedicated to Administration <Administration>`.
+.. seealso::    
+    
+    :doc:`Refer to the section dedicated to Administration <Administration>`.
 
 Thesaurus
 *********
@@ -134,7 +134,7 @@ utilization.
 Report
 ******
 
-Using :doc:`Statistics <Statistics>`, *Phraseanet Report* gives a detailed view
+Using :doc:`Statistics <Stats>`, *Phraseanet Report* gives a detailed view
 of a *Phraseanet* system activity and sums up the users behaviour. It is a
 datamine to optimize the access to the assets and know better the users habits.
 
@@ -143,5 +143,5 @@ datamine to optimize the access to the assets and know better the users habits.
 
 .. seealso::
    
-	Refer to the section doc:`Statistics <Statistics>` for a presentation of
-	this module.
+    Refer to the section doc:`Statistics <Statistics>` for a presentation of
+    this module.

@@ -75,7 +75,7 @@ After this creation process, the structure of the database can be set.
 
 .. seealso::
 
-	Refer to the :ref:`Phraseanet base setting<Structure-Setting>` section.
+	Refer to the Phraseanet base setting<Setting-Structure>` section.
 
 Depending on the needs and to publish a new Phraseanet base, it is required to
 create at least one collection.	

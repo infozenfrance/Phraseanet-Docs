@@ -39,7 +39,7 @@ Other identity suppliers can be added.
 
 .. note::
 
-	To set the list of authentication providers, see the 
+    To set the list of authentication providers, see the 
     :doc:`settings section <../../Admin/Configuration>`.
 
 Subscription
@@ -61,9 +61,9 @@ If the third party authentication is activated, there are two options :
 
 .. note::
 
-	Even with an identity provider, a password must be given during the
-	signing up process. This password is for the local *Phraseanet* account. It
-	can be different from the one used with the identity provider.
+    Even with an identity provider, a password must be given during the
+    signing up process. This password is for the local *Phraseanet* account. It
+    can be different from the one used with the identity provider.
 
 When the form is sent, a message appears on the connection page. It informs the
 user that his subscription request was received. Notified, an administrator can
@@ -83,8 +83,8 @@ secured link to the interface used to reset the password.
 
 .. warning::
 
-	The link is only valid for a limited time.
-	If the email is not received, check the Spam folder of the mail application.
+    The link is only valid for a limited time.
+    If the email is not received, check the Spam folder of the mail application.
 
 Click on the link in the email to reach the interface to reset the password.
 Follow the instructions then validate the form to reset the password.
@@ -92,8 +92,8 @@ Follow the instructions then validate the form to reset the password.
 Follow the suggested steps then validate the form.
 
 .. warning::
-	
-	The passwords are case sensitive.
+    
+    The passwords are case sensitive.
 
 After resetting the password, connect using the homepage form of Phraseanet.
 
@@ -105,9 +105,9 @@ to view one or more collections without authentication.
 
 .. note::
 
-	The guest account is just like other Phraseanet accounts. It allows to view
-	one or more collections without authentication.
+    The guest account is just like other Phraseanet accounts. It allows to view
+    one or more collections without authentication.
 
 Refer to
-:doc:`this section <../../FAQ/Customization/Setting-Guest-Account>`
+:doc:`this section <../../FAQ/Customization/Setting-guest-account>`
 to set the guest account.

@@ -3,7 +3,7 @@ Baskets and Stories
 .. toctree::
     :maxdepth: 3
 
-Baskets and stories are located in :doc:`the work area <Tabs>` on the same tab.
+Baskets and stories are located in the work area on the same tab.
 They are recognizable by their colours :
 
 * *Grey* for the baskets
@@ -16,12 +16,12 @@ The Baskets
 .. topic:: The essential
 
     A :term:`Basket<Basket>` allows to set aside media selections in order to
-	work on them. A basket in not "searchable" like documents or stories and
-	belongs to the user who	created it. A basket can be transmitted to other
-	users using the :doc:`Push and Validation<Push>` to make available a set of
-	media.
+    work on them. A basket in not "searchable" like documents or stories and
+    belongs to the user who    created it. A basket can be transmitted to other
+    users using the :doc:`Push and Validation<Push>` to make available a set of
+    media.
 
-	
+    
 Generalities on baskets
 ***********************
 
@@ -45,7 +45,7 @@ The documents selection in a basket is made the same way as in the display area.
 .. seealso::
 
     :ref:`See the section on Selections<Display-Selections>` in the page
-	dedicated to the display.
+    dedicated to the display.
 
 Symbols displayed
 ^^^^^^^^^^^^^^^^^
@@ -157,7 +157,7 @@ the results window.
 
 .. seealso::
 
-	Refer to the dedicated section to the :doc:`Actions palette <Actions>`.
+    Refer to the dedicated section to the :doc:`Actions palette <Actions>`.
 
 The stories
 -----------
@@ -165,16 +165,16 @@ The stories
 .. topic:: The essential
 
     The story is a record in a collection that includes other records, located
-	or not in the same collection. The descriptive note of a story is identical
-	to a document's.
-	
-	Unlike a basket, **a story can be searched** by every user than can access
-	its collection.
+    or not in the same collection. The descriptive note of a story is identical
+    to a document's.
+    
+    Unlike a basket, **a story can be searched** by every user than can access
+    its collection.
 
 .. note::
 
     Most of the available functions on the *Baskets* are also available on the
-	Stories. Only the functions peculiar to the stories are documented.
+    Stories. Only the functions peculiar to the stories are documented.
 
 Create a story
 **************

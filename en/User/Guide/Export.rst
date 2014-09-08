@@ -6,14 +6,14 @@
 .. topic:: The essential
 
     `Export`_ is one of the action of the :doc:`Actions palette <Actions>` in
-	*Production*.
+    *Production*.
     Several export modes are available : download, sending by e-mail or 
     transmission via :term:`FTP <FTP>`.
 
-	The non-downloadable documents can be ordered.
-	
+    The non-downloadable documents can be ordered.
+    
     The `Print`_  action is a particular export type. It prints instructions in
-	a PDF format.
+    a PDF format.
 
 .. image:: ../../images/PaletteExporter.jpg
     :align: center
@@ -32,8 +32,8 @@ attributes :
 
 .. note::
 
-	Past a certain size limit set by the administrators, the user can get the
-	media he wants to export using a download link via email.
+    Past a certain size limit set by the administrators, the user can get the
+    media he wants to export using a download link via email.
 
 It is possible to export the media or the contents of the baskets and stories
 one by one or in batches from results area or from the baskets and stories area.
@@ -52,15 +52,15 @@ By clicking on **Export**, up to 4 export options are available :
 .. note::
 
     The export can be done on batches of documents, coming from several 
-	Phraseanet bases or collections, on which the user may not have export 
-	rights. In this case, the number of documents that can be exported is
-	indicated.
+    Phraseanet bases or collections, on which the user may not have export 
+    rights. In this case, the number of documents that can be exported is
+    indicated.
 
 Select one or more records (documents or stories) then click on the button
 Export. The download options are displayed in the tabs of the overlay window.
-	
+    
 .. _Download:
-	
+    
 Export by download
 ******************
 
@@ -72,7 +72,7 @@ Export by download
     :align: center
 
 .. _Export-Email:
-	
+    
 The export by email
 *******************
 
@@ -89,7 +89,7 @@ The export by email
     :align: center
 
 .. _Export-FTP:
-	
+    
 FTP
 ***
 
@@ -98,14 +98,14 @@ which to submit the exported documents. It is possible to use a FTP favourite.
 
 .. note::
 
-	The FTP favourite is editable in the :ref:`Information tab <PhraseanetMenu-Information>`
-	of the account settings.
-	
+    The FTP favourite is editable in the :ref:`Information tab <PhraseanetMenu-Information>`
+    of the account settings.
+    
 .. image:: ../../images/Exporter-FTP.jpg
     :align: center
 
 .. _Export-Order:
-	
+    
 Compare documents
 *****************
 

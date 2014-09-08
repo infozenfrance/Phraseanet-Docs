@@ -5,15 +5,15 @@
 
 .. topic:: The essential
 
-	The interfaces *Phraseanet Production* or *Classic* allows to consult and
-	browse through media assets in *Phraseanet*.
+    The interfaces *Phraseanet Production* or *Classic* allows to consult and
+    browse through media assets in *Phraseanet*.
 
-	*Production* is an interface dedicated to viewing, searching, managing and
-	editing documents, depending on the user rights. It as the default interface
-	when connection for the first time.
-	
-	*Classic* is only for searching and viewing documents with older browsers.
-	The specifics of this interface are not covered in this guide.
+    *Production* is an interface dedicated to viewing, searching, managing and
+    editing documents, depending on the user rights. It as the default interface
+    when connection for the first time.
+    
+    *Classic* is only for searching and viewing documents with older browsers.
+    The specifics of this interface are not covered in this guide.
 
 Production Interface
 --------------------
@@ -32,14 +32,14 @@ The work area of Production is divided in 4 parts :
   and the Thesaurus tab. It is minimizable.
 * **4. The Actions palette** allows to act on records. Refer to the dedicated
   page in :doc:`Actions Palette<Actions>`.
-	
+    
 The lower banner allows access to the **Display preferences**, informs on the
 results number and displays a pagination of the results. This index allows to
 move through the results.
 
 .. note::
 
-	Do not use the back and forward buttons of the web browser.
+    Do not use the back and forward buttons of the web browser.
 
 To access a specific page, modify the page number then validate by pressing the
 **Enter** key of the keyboard.
@@ -56,8 +56,8 @@ The thumbnails have a presentation title customizable by the Administrators.
 
 .. note::
 
-	To customize the documents title displayed under the thumbnails, refer to
-	:doc:`the Administration section <AdministrationBasesCollections>`. 
+    To customize the documents title displayed under the thumbnails, refer to
+    :doc:`the Administration section <AdministrationBasesCollections>`. 
 
 **The name of the document's collection is displayed in the bottom left corner:**
 of the thumbnail. It can be replaces by a mini logo.
@@ -77,7 +77,8 @@ The terms used as search criteria are highlighted.
 the nature of the *preview* sub-definitions defined in the settings of the bases
 that contains the displayed media.
 
-By default, it is : 
+By default, it is :
+
 * a picture for image type documents
 * a video extract for video type documents
 * an audio extract for audio type documents
@@ -121,11 +122,11 @@ and technical information of the media depending on the settings.
 
 .. note::
 
-	If a Thesaurus is linked to the base, some terms of the note can be
-	clickable. They allow to bounce on other searches.
+    If a Thesaurus is linked to the base, some terms of the note can be
+    clickable. They allow to bounce on other searches.
 
 .. _Display-History:
-	
+    
 History tab
 ***********
 
@@ -136,7 +137,7 @@ since it was added to the Phraseanet base.
     :align: center
 
 .. _Display-Popularity:
-	
+    
 Popularity tab
 **************
 
@@ -151,13 +152,13 @@ The Popularity tab displays statistics of the displayed media :
 
 .. note::
 
-	For detailed statistics on a Phraseanet base, refer to the page	dedicated to
-	:doc:`statistics <Statistics>`.
+    For detailed statistics on a Phraseanet base, refer to the page dedicated to
+    :doc:`statistics <Stats>`.
 
 Click on "Close" or the "Escape" key of the keyboard to close the window.
 
 .. _Display-Selections:
-	
+    
 Records selection
 -----------------
 
@@ -212,7 +213,7 @@ interface.
 
     The number of selected records is limited to 400.
 
-	
+    
 Selection by media type
 ***********************
 
@@ -310,5 +311,5 @@ confirm the deletion in the confirmation window.
 
 .. seealso::
 
-	For more features, refer to the section dedicated to 
-	:doc:`Baskets and Stories<BasketsStories>`.
+    For more features, refer to the section dedicated to 
+    :doc:`Baskets and Stories<BasketStories>`.

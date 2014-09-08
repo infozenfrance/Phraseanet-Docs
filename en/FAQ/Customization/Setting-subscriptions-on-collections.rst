@@ -24,7 +24,7 @@ by email) indicating a new access request was created.
 They check in the Admin section that the inscription is legitimate then either
 validate of reject a subscription application by granting user rights or not.
 The users that subscribed are then notified of the decision on their application
-Refer to :doc:`this page <../../User/Manuel/AdministrationUsers>`
+Refer to :doc:`this page <../../User/Guide/AdministrationUsers>`
 dedicated section on access requests.
 
 The automatic subscription allows the user to request an access which is

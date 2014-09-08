@@ -7,8 +7,8 @@ Lightbox
 .. topic:: The essential
 
     *Phraseanet Lightbox* collaborative viewing interface. If has comparison
-	features, slide show, export and allows to validate or comment media. The
-	Push and Validation recipients can view their contents using this interface.
+    features, slide show, export and allows to validate or comment media. The
+    Push and Validation recipients can view their contents using this interface.
 
 Access the Lightbox
 -------------------
@@ -94,8 +94,8 @@ Downloading from Lightbox is identical to the export in Production.
     :align: center
 
 .. seealso::
-	
-	Refer to the :doc:`export section in Production<Export>`.
+    
+    Refer to the :doc:`export section in Production<Export>`.
 
 Compare two media
 *****************

@@ -6,7 +6,7 @@ The Phraseanet menu
 .. topic:: The essential
 
     The *Phraseanet* menu bar allows to access the different interfaces of the 
-	application, the user account settings and some information and resources.
+    application, the user account settings and some information and resources.
 
 Access to interfaces
 --------------------
@@ -63,7 +63,7 @@ A new page opens and displays the forms and lists in thematic tabs.
     :align: center
 
 .. _PhraseanetMenu-Information:
-	
+    
 Information tab
 ***************
 
@@ -77,7 +77,7 @@ It regroups the personal information. The form allows to complete or modify :
 
 .. seealso::
 
-    :doc:`Activate the reception of documents on a FTP server<../../FAQ/Settings/activate-ftp>`
+    :doc:`Activate the reception of documents on a FTP server<../../FAQ/Settings/Activate-ftp>`
 
 Access tab
 **********
@@ -117,7 +117,7 @@ user's account.
 
 .. seealso::
 
-  :doc:`Authorize a third party application to connect to a Phraseanet account<../../FAQ/Users/add-application>`
+  :doc:`Authorize a third party application to connect to a Phraseanet account<../../FAQ/Users/Add-application>`
 
 Developer tab
 *************

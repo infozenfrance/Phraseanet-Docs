@@ -5,20 +5,20 @@ Thesaurus
     :maxdepth: 3
 
 .. topic:: The essential
-	
-	The Thesaurus is a documentary language manageemnt tool. In Phraseanet, its
-	implementation is optional. It is used with the Phrasea engine and is not
-	compatible with the Sphinx engine.
+    
+    The Thesaurus is a documentary language manageemnt tool. In Phraseanet, its
+    implementation is optional. It is used with the Phrasea engine and is not
+    compatible with the Sphinx engine.
 
-	In Production, the thesaurus serves :
+    In Production, the thesaurus serves :
 
-	* **The contributors**, to give a reference vocabulary to describe the
-	  documentary resources of the base in the edition form.
-	* **The users**, to browse the assets and make suggestions allowing to 
-	  narrow or expand the searches.
+    * **The contributors**, to give a reference vocabulary to describe the
+      documentary resources of the base in the edition form.
+    * **The users**, to browse the assets and make suggestions allowing to 
+      narrow or expand the searches.
 
-	The Thesaurus application is the interface dedicated to the thesaurus
-	administration. Some maintenance actions are however possible in Production.
+    The Thesaurus application is the interface dedicated to the thesaurus
+    administration. Some maintenance actions are however possible in Production.
 
 
 Comments on the thesaurus
@@ -49,15 +49,15 @@ expressions of the thesaurus.
 
 .. Warning::
 
-	A thesaurus is a very powerful tool and its implementation can seem easy but
-	can need Documentation knowledge depending on its final use and the expected
-	results.
+    A thesaurus is a very powerful tool and its implementation can seem easy but
+    can need Documentation knowledge depending on its final use and the expected
+    results.
 
 Activation of the thesaurus on a *Phraseanet* instance
 ******************************************************
 
 The Phraseanet thesaurus is activated in the optional modules of the section
-:ref:`Administration settings<Applicative-settings>`.
+:ref:`Administration settings<Application-setting>`.
 
 Set the radio button to *True* then submit the form to activate the thesaurus.
 
@@ -113,8 +113,8 @@ rejected terms.
 * Click on Validate
 
 .. note::
-	The immediate re-indexation is not necessary if other terms are not yet
-	added. The re-indexation can be launched after from **Phraseanet Admin**.
+    The immediate re-indexation is not necessary if other terms are not yet
+    added. The re-indexation can be launched after from **Phraseanet Admin**.
 
 Create a new synonym
 ********************
@@ -158,14 +158,14 @@ to any branches or nodes of the thesaurus.
 
 .. note::
 
-	The relations between the terms being kept, this method can be used to move
-	a part of the tree structure towards an other node or branch of the
-	thesaurus.
+    The relations between the terms being kept, this method can be used to move
+    a part of the tree structure towards an other node or branch of the
+    thesaurus.
 
 Delete a synonym term
 *********************
 
-* Right click on a branch or thesaurus node* Cliquer sur Propriété
+* Right click on a branch or thesaurus node*
 * Click on Property
 
 In the property window...
@@ -174,9 +174,9 @@ In the property window...
 * Choose the Delete section then confirm the deletion in the alert window
 
 .. note::
-	
-	In Firefox, a menu window can hide the Property window of the thesaurus.
-	
+    
+    In Firefox, a menu window can hide the Property window of the thesaurus.
+    
 Search for a term in the candidate terms or the Thesaurus
 *********************************************************
 
@@ -218,8 +218,8 @@ In the Import window...
 
 .. note::
 
-	In case of errors in the tabulated text file, the import is suspended and
-	an alert window indicated the anomaly.
+    In case of errors in the tabulated text file, the import is suspended and
+    an alert window indicated the anomaly.
 
 To proceed with the integration of the imported thesaurus, link the branches
 to the documentary fields of the base.
@@ -243,9 +243,9 @@ In the Link to field window of the thesaurus...
 * Check the box(es) of the fields to link then submit the form
 
 .. note::
-	All the new terms contained in the documents documentary sheets that will be
-	added, or that the indexation will be modified, will appear as candidate
-	terms in a branch named after the field.
+    All the new terms contained in the documents documentary sheets that will be
+    added, or that the indexation will be modified, will appear as candidate
+    terms in a branch named after the field.
 
 Work on the candidates
 ----------------------
@@ -278,8 +278,8 @@ In the Accept window...
 
 .. note::
 
-	The candidates can only be added to the branches linked to the documentary
-	fields they come from.
+    The candidates can only be added to the branches linked to the documentary
+    fields they come from.
 
 Reject a candidate
 ^^^^^^^^^^^^^^^^^^
@@ -314,9 +314,9 @@ be deleted then re-added :
 
 .. Warning::
 
-	During the re-indexation of a base, the refused or deleted terms of a 
-	thesaurus reappear, this action reinitialises the candidates of the
-	thesaurus.
+    During the re-indexation of a base, the refused or deleted terms of a 
+    thesaurus reappear, this action reinitialises the candidates of the
+    thesaurus.
 
 In Production
 *************
@@ -374,4 +374,4 @@ To replace a candidate term in the notes :
 
 .. note::
 
-	To delete or replace a term in more than 25 sheets, use the edition form.
+    To delete or replace a term in more than 25 sheets, use the edition form.

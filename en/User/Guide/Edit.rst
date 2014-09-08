@@ -5,11 +5,11 @@ Edit the documentary notes
 
 .. topic:: The essential
 
-	The action **Edit** allows to edit the fact sheets of the media, stories,
-	to write, complete or modify the documentary description fields.
+    The action **Edit** allows to edit the fact sheets of the media, stories,
+    to write, complete or modify the documentary description fields.
 
-	It is possible to edit these descriptions either one by one or by batch
-	from records, baskets, stories from the results area or the work area.
+    It is possible to edit these descriptions either one by one or by batch
+    from records, baskets, stories from the results area or the work area.
 
 Edit records
 ------------
@@ -121,7 +121,7 @@ Edit from thesaurus
 
 If a thesaurus is installed on the Phraseanet base containing the media, the tab
 Thesaurus allows to rapidly index from terms contained in the thesaurus
-linked to the Phraseanet :term:`base`.
+linked to the Phraseanet :term:`Phraseanet Base`.
 The entry is assisted for the fields linked to a thesaurus branch.
 
 * Click on the tab thesaurus
@@ -137,8 +137,8 @@ The entry is assisted for the fields linked to a thesaurus branch.
 * The term is immediately added to the selected documents.
 
 .. note::
-	It is also possible to deploy the thesaurus *tree* to search and select
-	terms to index. Click on the "+" in front of these terms.
+    It is also possible to deploy the thesaurus *tree* to search and select
+    terms to index. Click on the "+" in front of these terms.
 
 Edit from suggested values
 **************************
@@ -157,8 +157,8 @@ listing the editable fields of the base's documentary structure.
 
 .. note::
 
-	To select multiple values, select a value in the list by pressing the "Ctrl"
-	key of the keyboard.
+    To select multiple values, select a value in the list by pressing the "Ctrl"
+    key of the keyboard.
 
 Edit the statuses
 *****************
@@ -170,7 +170,7 @@ selected records.
 
 Use the input help systems
 --------------------------
-	
+    
 The paper block
 ***************
 
@@ -210,12 +210,12 @@ Create a documentary description template
 
 .. note::
 
-	If more than one document are selected, the template will only take the 
-	common data of these fields.
+    If more than one document are selected, the template will only take the 
+    common data of these fields.
 
 * Click on Add
 
-.. image:: ../../images/Prod-Editer-templatees.jpg
+.. image:: ../../images/Prod-Editer-modeles.jpg
     :align: center
 
 * Enter a title for the template
@@ -232,7 +232,7 @@ Apply a template to a media selection
 
 .. note::
 
-	A template belongs to the user who created it, it can bu used only by him.
+    A template belongs to the user who created it, it can bu used only by him.
 
 Particulars of editing stories
 ------------------------------
@@ -265,5 +265,5 @@ In the scroll bar of the stories documents...
 
 .. note::
 
-	Up to version 3.8.5, only the image type documents thumbnails could be
-	assigned to stories.
+    Up to version 3.8.5, only the image type documents thumbnails could be
+    assigned to stories.

@@ -7,9 +7,9 @@
 .. topic:: The essential
 
     A lot of statistics are available in Phraseanet. In Production, stats on
-	the documents are published in the tabs of the detailed view.
-	
-	**Report** gives more detailed informations on the site's activity.
+    the documents are published in the tabs of the detailed view.
+    
+    **Report** gives more detailed informations on the site's activity.
 
 Statistics in Production
 ------------------------
@@ -144,9 +144,9 @@ choices allows to choose the actions made on the documents :
 
 .. note::
 
-	A setting option allows to anonymize reports. In this case the account IDs
-	do not appear in the generated reports.
-	Refer to the Report display options section of the Admin Settings.
+    A setting option allows to anonymize reports. In this case the account IDs
+    do not appear in the generated reports.
+    Refer to the Report display options section of the Admin Settings.
 
 Customize and export reports
 ****************************
@@ -159,4 +159,4 @@ Some column headers allows to sort is needed.
 
 Most of the generated reports can be exported as PDF or CSV files. Click on the
 dedicated icons to export to obtain the reports in the desired format. 
-	
+    

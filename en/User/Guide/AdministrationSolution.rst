@@ -6,7 +6,7 @@ Application's Administration
 .. topic:: The essential
 
     The administration of the application consists in monitoring the solution's
-	operations and changing settings if necessary.
+    operations and changing settings if necessary.
 
 Dashboard
 ---------
@@ -48,8 +48,8 @@ Setup have a set of forms allowing to :
 .. warning::
 
     "Setup" allows to deeply modify the installation settings of the 
-	application. The administrator must pay attention to modifications brought 
-	in the proposed forms.
+    application. The administrator must pay attention to modifications brought 
+    in the proposed forms.
 
 Search engine settings
 ----------------------
@@ -60,8 +60,7 @@ graphical interface.
 
 .. seealso::
 
-    :doc:`Refer to the page dedicated to the engines configuration in the 
-	 Administrator documentation <../Admin/SearchEngine>`_.
+    :doc:`Refer to the page dedicated to the engines configuration in the Administrator documentation<../../Admin/SearchEngine>`.
 
 Phrasea engine configuration
 ****************************
@@ -92,21 +91,21 @@ Publications
 ------------
 
 Accessible by users who have the publications management rights, the 
-publications section allows to manage mediaRSS streams broadcast from the 
+publications section allows to manage mediaRSS feeds broadcast from the 
 Phraseanet application.
 
 .. image:: ../../images/Administration-publications.jpg
     :align: center
 
-The screen displays the list of the available media streams and allows to
-create, modify or remove some media streams.
+The screen displays the list of the available media feeds and allows to
+create, modify or remove some media feeds.
 
-.. _Create-a-publication-stream:
+.. _Create-a-publication-feed:
 
-Create a publication stream
+Create a publication feed
 ***************************
 
-Fill the stream creation form by entering the necessary information.
+Fill the feed creation form by entering the necessary information.
 The publication extent restricts the publication to users accessing a
 collection.
 **Check the Public box** to remove the access restrictions.
@@ -116,11 +115,11 @@ collection.
   The public publications media are approved in the suggested default animations
   on the login page.
 
-Modify or delete a stream
+Modify or delete a feed
 *************************
 
-* Click on the title of a stream to modify it
-* To delete a stream, click on the button **Delete**
+* Click on the title of a feed to modify it
+* To delete a feed, click on the button **Delete**
 
 Task manager
 ------------
@@ -159,9 +158,9 @@ In some cases, the graphical view simulates the task's execution.
 
 .. image:: ../../images/Administration-editertache2.jpg
     :align: center
-	
+    
 * Start the task.
-	
+    
 .. seealso::
 
-	:doc:`Refer to the page dedicated to the tasks engine<../../Admin/TasksEngine>`.
+    :doc:`Refer to the page dedicated to the tasks engine<../../Admin/TaskManager>`.

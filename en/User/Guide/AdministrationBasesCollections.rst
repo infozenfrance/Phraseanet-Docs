@@ -5,12 +5,12 @@ Phraseanet bases and collections administration
 
 .. topic:: The essential
 
-	A Phraseanet application is organized in bases and collections.
-	Each of the	bases corresponds to a customizable documentary structure, the
-	collections can be treated as base subsets.
+    A Phraseanet application is organized in bases and collections.
+    Each of the bases corresponds to a customizable documentary structure, the
+    collections can be treated as base subsets.
 
 .. Setting-Structure:
-	
+    
 Customization per base
 ----------------------
 
@@ -41,7 +41,7 @@ writeable XML file.
     :align: center
 
 It's unlikely to have to customize a base using this interface, the interfaces
-`Fields`_ , `Sub-definitions`_ or `Status settings`_ are more convenient to
+`Fields`_ , `Sub-definition`_ or `Statuses settings`_ are more convenient to
 use to change the settings.
 
 Fields
@@ -98,9 +98,9 @@ application.
 
 .. warning::
 
-	The *thumbnail* and *preview* sub-definitions are essential.
-	They are used in the Phraseanet interfaces to display the thumbnails and
-	preview images of the media.
+    The *thumbnail* and *preview* sub-definitions are essential.
+    They are used in the Phraseanet interfaces to display the thumbnails and
+    preview images of the media.
 
 Statuses settings
 *****************
@@ -111,7 +111,7 @@ Linked to the documentary structure of a base, it is possible to integrate up to
 28 statuses.
 
 * To declare a status, click on the Page icon to edit a new status bit then fill
-  the form.	
+  the form.    
 * To modify en existing status, click on the Pen icon.
 * To delete a status, click on the Cross icon then confirm the deletion.
 
@@ -160,8 +160,8 @@ the form.
 
 .. note::
 
-	When creating a collection, it is possible to apply (duplicate) users rights
-	from an existing collection.
+    When creating a collection, it is possible to apply (duplicate) users rights
+    from an existing collection.
 
 Display a collection
 ********************
@@ -199,8 +199,8 @@ on original documents sent by users who do no have the rights to download them.
 
 .. note::
 
-	The order managers receive download requests notifications in the Phraseanet
-	interface and by email.
+    The order managers receive download requests notifications in the Phraseanet
+    interface and by email.
 
 **To add an order manager**, on the displayed collection, type the user's name
 or surname or login in the form to add a manager. Validate using the choice
@@ -246,7 +246,7 @@ The labels allows to give names to the collections in each interface language of
 the application.
 To define or modify the labels of a collection, fill the form then click on the
 button **Define the labels**.
-	
+    
 .. _activate-collection:
 
 Activate or de-activate a collection
@@ -281,7 +281,7 @@ Click on **Delete** to completely delete the collection from the base.
 
 .. note::
 
-	A collection must be empty to be deleted.
+    A collection must be empty to be deleted.
 
 Customizing a collection
 ************************
@@ -304,8 +304,8 @@ sub-definitions of the collection's documents.
 
 .. note::
 
-	A watermark is applied to the picture documents viewed by the users that
-	have the "No watermark" right unchecked.
+    A watermark is applied to the picture documents viewed by the users that
+    have the "No watermark" right unchecked.
 
 :doc:`Refer to the section dedicated to the Watermark in the FAQ.<../../FAQ/Customization/Watermark>`
 

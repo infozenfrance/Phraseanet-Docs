@@ -7,7 +7,7 @@ Users Management
 .. topic:: The essential
 
     Available for users who have the users management rights, the users section
-	allows to manage the subscription, the rights and information on the users.
+    allows to manage the subscription, the rights and information on the users.
 
 Click on the Users section to go to the users management interface.
 
@@ -46,13 +46,13 @@ Create a new user
     :ref:`Refer to the Rights edition section<User-Rights>`.
 
 * To edit information relating to the user's details, click on the tab
- **Information** then edit the proposed form.
+  **Information** then edit the proposed form.
 * Apply the changes by clicking on the **Validate** button.
 
 .. note::
 
     If some users are created by the users management interface, the e-mail 
-	address is used as the identifier.
+    address is used as the identifier.
 
 Modify the user's rights
 ************************
@@ -87,11 +87,11 @@ Users templates creation
 * Click on **New template**
 * Enter a name for the template then validate the form
 * Edit the rights of the new template then validate the form
-	
+    
 .. note::
 
     Templates belong to users who created them. They will not be visible by the 
-	other administrators.
+    other administrators.
 
 Apply templates to users
 ************************
@@ -104,7 +104,7 @@ It is possible to apply templates to one or more users.
 
 .. image:: ../../images/Administration-appliquermodele.jpg
     :align: center
-	
+    
 An alert window allows to choose an application option for the template : 
 
 * **Apply the template** : the rights of the template are added to the existing
@@ -205,8 +205,8 @@ Limitation through status allows to hide records from the user according to
 the state of one or several status.
 
 .. note::
-	Refer to the settings of the base for the creation and the management of the 
-	status bits.
+    Refer to the settings of the base for the creation and the management of the 
+    status bits.
 
 Click on the statuses icon to set the access restrictions to the records.
 

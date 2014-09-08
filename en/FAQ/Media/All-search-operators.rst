@@ -28,13 +28,13 @@ The common operators **ALL** and **LAST**
 -----------------------------------------
 
 * *all* : to search all the documents in the selected Phraseanet
-  :term:`bases <Base>` and collections.
+  :term:`bases <Phraseanet Base>` and collections.
 
 * *last* (with no specific number) displays by default the last 12 documents
   added in the Phraseanet base.
 
-The operator *last* is valid per opened Phraseanet :term:`bases <Base>` and
-collections.
+The operator *last* is valid per opened Phraseanet :term:`bases <Phraseanet Base>`
+and collections.
 
 The substitution operators
 --------------------------
