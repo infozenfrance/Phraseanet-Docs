@@ -27,7 +27,7 @@ of sections.
 .. image:: ../../images/General-menu0.jpg
     :align: center
 
-Others users, such as administrators, have a more complete menu bar.
+Other users, such as administrators, have a more complete menu bar.
 
 .. image:: ../../images/General-menu1.jpg
     :align: center
@@ -49,7 +49,8 @@ validation requests, baskets receiving... *etc* to the user.
 
 **Click on the Notifications section to display them**.
 
-The notifications displayed in the interface are conveyed by the email's sending
+The notifications displayed in the interface are conveyed by the email's
+sending.
 To manage the received notifications, access the 
 :ref:`Information tab<PhraseanetMenu-Information>` of the account settings.
 

@@ -112,7 +112,7 @@ Linked to the documentary structure of a base, it is possible to integrate up to
 
 * To declare a status, click on the Page icon to edit a new status bit then fill
   the form.    
-* To modify en existing status, click on the Pen icon.
+* To modify an existing status, click on the Pen icon.
 * To delete a status, click on the Cross icon then confirm the deletion.
 
 General terms and conditions of use

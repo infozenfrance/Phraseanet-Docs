@@ -21,7 +21,7 @@
 Export
 ------
 
-This action allows to export depending on the user rights ot the sub-definition
+This action allows to export depending on the user rights of the sub-definition
 attributes :
 
 * the original document
@@ -64,7 +64,7 @@ Export. The download options are displayed in the tabs of the overlay window.
 Export by download
 ******************
 
-* Use che checkboxes to select the items to export.
+* Use the checkboxes to select the items to export.
 * Click on *Download*.
 * Follow the procedure proposed by the browser.
 
@@ -80,7 +80,7 @@ The export by email
   multiple recipients.
 * Enter the subject of the e-mail.
 * Select the files that have to be attached to the downloadable zipped archive
-  via the available link in the body of the e-mail.
+  via the available link in the e-mail body.
 * Complete the e-mail message if necessary.
 * Click on **Send**.
 * A sending confirmation displays.
@@ -116,8 +116,8 @@ rights on the media.
     :align: center
 
 * Fill in and submit the displayed form.
-* The order manager is informed of the order by a notification in Phraseanet or by
-  an notification by e-mail. He examines the order then accept or refuse the 
+* The order manager is informed of the order by a notification in Phraseanet or
+  by a notification by e-mail. He examines the order then accept or refuse the 
   documents request.
 * For delivered orders, the user receives the requested documents in Lightbox,
   using a link displayed in the notifications.

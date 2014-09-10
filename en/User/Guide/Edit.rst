@@ -73,8 +73,8 @@ Edit multi-valued text fields
 * Select the record(s) to modify.
 * Click on a multi-valued field
 * Enter the term or expression in the form field then click on the "+" or
-  validate with the Enter key of the keyboard to add the term to the multi-valued
-  field.
+  validate with the Enter key of the keyboard to add the term to the
+  multi-valued field.
 
 The information contained in the notes of each selected document is displayed
 in this field. The common terms that are in all the notes are **in white**,
@@ -232,7 +232,7 @@ Apply a template to a media selection
 
 .. note::
 
-    A template belongs to the user who created it, it can bu used only by him.
+    A template belongs to the user who created it, it can be used only by him.
 
 Particulars of editing stories
 ------------------------------

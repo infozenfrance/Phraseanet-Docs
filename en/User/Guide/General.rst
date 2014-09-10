@@ -104,7 +104,7 @@ tool.
 Administration
 **************
 
-:doc:`Admin<Administration>` is an user interface allowing to manage and monitor
+:doc:`Admin<Administration>` is a user interface allowing to manage and monitor
 the application, create Phraseanet bases and :term:`collections <Collection>`,
 declare documentary structures, create users and manage their rights.
 

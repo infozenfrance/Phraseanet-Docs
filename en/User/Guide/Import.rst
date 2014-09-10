@@ -37,7 +37,7 @@ Select files
 ************
 
 * Click on **Select files** (1). The file browser starts.
-* Select the files to integrate by browsing throuh directories, then click on
+* Select the files to integrate by browsing through directories, then click on
   Open.
 
 The selected files appear in the left side of the Upload interface (2).
@@ -92,8 +92,8 @@ Classic interfaces.
 
 .. note::
 
-    Other adding possibilities are possible, like using a FTP directory. It
-    consists in importing the files contained in a directory using an archiving
+    Other addition possibilities exists, like using a FTP directory. It consists
+	in importing the files contained in a directory using an archiving
     task.
 
 The Quarantine
@@ -137,8 +137,8 @@ For each quarantined media, three options are possible :
 * **Remove** the file
 * **Substitute** the existing file
 
-The user decide what is the best action to do in order to empty the files queue
-in the quarantine space.
+The user decides what is the best action to empty the files queue in the
+quarantine space.
 
 
 The Quarantine can also be entirely deleted using the button

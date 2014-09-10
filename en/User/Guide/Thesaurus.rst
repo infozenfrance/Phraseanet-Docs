@@ -6,7 +6,7 @@ Thesaurus
 
 .. topic:: The essential
     
-    The Thesaurus is a documentary language manageemnt tool. In Phraseanet, its
+    The Thesaurus is a documentary language management tool. In Phraseanet, its
     implementation is optional. It is used with the Phrasea engine and is not
     compatible with the Sphinx engine.
 
@@ -251,7 +251,7 @@ Work on the candidates
 ----------------------
 
 The candidate terms are terms and expressions linked to branches of the
-thesaurus bu are not part of it. These terms can either come from information
+thesaurus but are not part of it. These terms can either come from information
 extracted from the metadatas of a file that was added, or from the information
 types from the Edit form of the records.
 

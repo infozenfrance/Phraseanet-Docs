@@ -5,7 +5,7 @@
 
 .. topic:: The essential
 
-    Two features of Phraseanet allows to publish and to broadcast media from an
+    Two features of Phraseanet allow to publish and to broadcast media from an
     asset : *Publication* and *Bridge*
 
 .. _Publish-Publications:    
@@ -109,7 +109,7 @@ tags and describe your media in the description forms.
 When the images are sent, it is possible to view the transfer progress by
 clicking on the tab **Sent files**.
 
-* The status **OK** tells the media pictures or videos have been transfered.
+* The status **OK** tells that the pictures or videos have been transferred.
 * A date information indicates since when the transfer was made.
 
 Start *Flickr*. The media transferred from Phraseanet are available.

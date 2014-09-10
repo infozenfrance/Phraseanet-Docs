@@ -30,7 +30,7 @@ eventually download.
 Push documents
 **************
 
-* **Select one or several documents** in the results display area of in an
+* **Select one or several documents** in the results display area or in an
   opened basket or open a story in the work area.
 
 * **Click on the Push button** of one of the Actions palette :
@@ -180,7 +180,7 @@ To create a new list in the Lists manager, click on the link *Add*.
 
 .. note::
 
-    A research and filters system allow to limit the display of the users by
+    A research and filters system allows to limit the display of the users by
     login, family name or first name, activity, company...*etc.*
 
 * To go back to the list's summary, click on the button *See*.
@@ -189,7 +189,7 @@ Share a list
 ************
 
 To share sending lists with other Phraseanet users and allocate them some user,
-management or administration rights, Display the list to share by 
+management or administration rights, display the list to share by 
 selecting it in the list area.
 
 **To share a list with a Phraseanet user**, search the user by his family name,
@@ -204,9 +204,9 @@ By default, sharing access are allocated in accordance with the level of access
 granted.
 
 * The **Access level** grants access to read-only mode on the sending list
-* The **Editor level** grants access to read and write mode on the contents of
-  the sending list.
-* The **Admin level** grants access to read and write mode and also allows to 
+* The **Editor level** grants access to read-write mode on the contents of the
+  sending list.
+* The **Admin level** grants access to read-write mode and also allows to 
   delete shared lists.
 
 Delete a list

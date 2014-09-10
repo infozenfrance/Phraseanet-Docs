@@ -17,7 +17,7 @@ The Baskets
 
     A :term:`Basket<Basket>` allows to set aside media selections in order to
     work on them. A basket in not "searchable" like documents or stories and
-    belongs to the user who    created it. A basket can be transmitted to other
+    belongs to the user who created it. A basket can be transmitted to other
     users using the :doc:`Push and Validation<Push>` to make available a set of
     media.
 
@@ -189,7 +189,8 @@ Fill the form by indicating :
 
 Check the box to include the active selection as content of the story.
 
-Click on **Validate** to create the story. It appears as opened in the work area
+Click on **Validate** to create the story. It appears as opened in the work
+area.
 
 Add, delete documents from a story
 **********************************

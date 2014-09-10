@@ -6,8 +6,8 @@
 
 .. topic:: The essential
 
-    A lot of statistics are available in Phraseanet. In Production, stats on
-    the documents are published in the tabs of the detailed view.
+    A lot of statistics are available in Phraseanet. In Production, statistics
+	on the documents are published in the tabs of the detailed view.
     
     **Report** gives more detailed informations on the site's activity.
 
@@ -56,7 +56,7 @@ The dashboard gives general information about :
 * The 10 top frequently asked questions
 * The sites where the media are the most viewed
 
-These statistics are detailled in the Connections, Downloads and Site activity
+These statistics are detailed in the Connections, Downloads and Site activity
 tabs .
 
 Connections

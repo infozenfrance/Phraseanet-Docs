@@ -174,7 +174,7 @@ Glossary
         The Phraseanet *Business field* are fields that will receive business
         information. These internal information are shared by the users having
         editing rights on the documents. A business field is searchable only
-        by a user that have editing rights.
+        by a user that has editing rights.
 
     Dublin Core
         Standardised schema ISO 15836 for describing documentary resources.

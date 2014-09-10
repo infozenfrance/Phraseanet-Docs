@@ -77,7 +77,7 @@ Other common operators are available :
 * **The search between double quotes** is possible : it allows to search for
   contiguous terms in the media descriptive notes.
 
-Other options exists using advanced operators.
+Other options exist using advanced operators.
 
 .. seealso::
 
@@ -152,7 +152,7 @@ The available filters allow to narrow the search results :
 * Filter by status
 * Limit the searches with periods
 
-**The options of the advanced search stays**. The choices used in the advanced
+**The options of the advanced search stay**. The choices used in the advanced
 search window are kept as long as they are not modified.
 If there are search options, the form background will be yellow.
 

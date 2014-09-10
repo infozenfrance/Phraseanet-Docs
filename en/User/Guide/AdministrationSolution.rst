@@ -103,7 +103,7 @@ create, modify or remove some media feeds.
 .. _Create-a-publication-feed:
 
 Create a publication feed
-***************************
+*************************
 
 Fill the feed creation form by entering the necessary information.
 The publication extent restricts the publication to users accessing a
@@ -116,7 +116,7 @@ collection.
   on the login page.
 
 Modify or delete a feed
-*************************
+***********************
 
 * Click on the title of a feed to modify it
 * To delete a feed, click on the button **Delete**
