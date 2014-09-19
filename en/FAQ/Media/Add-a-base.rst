@@ -5,7 +5,7 @@ Add a base
 
 	After the installation, a Phraseanet base is available in the application
 	in order to receive media. However, for some reason, it might be necessary
-	to create an other. Oh to create a new Phraseanet base ?
+	to create an other. How to create a new Phraseanet base ?
 
 Create a new database in the database manager
 ---------------------------------------------

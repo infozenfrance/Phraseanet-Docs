@@ -40,7 +40,7 @@ With Nginx for web server, large queries must be activated :
 The result thumbnails are hot-air-balloons
 ------------------------------------------
 
-The creation of sub-definitions sometime takes time depending on the nature and
+The creation of sub-definitions sometimes takes time depending on the nature and
 the size of the documents that were added to the base.
 
 Also make sure that the sub-definitions creation task is started in the Admin
@@ -128,7 +128,7 @@ structure.
 The sub-definitions are generated then saved in the storage directory of the
 sub-definitions obtained from the structure.
 
-The metadatas can then be written in some sub-definitinos (depending on the
+The metadatas can then be written in some sub-definitions (depending on the
 setting).
 
 The metadatas are then added to the index of the search engine.

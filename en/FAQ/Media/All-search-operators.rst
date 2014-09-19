@@ -42,7 +42,7 @@ The substitution operators
 The wildcard *****
 ******************
 
-Tue truncation character *****, used on the right of a string allows to search
+The truncation character *****, used on the right of a string allows to search
 descriptive notes that contains terms starting with the characters before the
 asterisks.
 

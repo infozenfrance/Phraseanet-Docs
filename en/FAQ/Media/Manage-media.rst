@@ -31,8 +31,7 @@ The multi-layers documents rendering is *weird*
 The creation of the sub-definitions for pictures is handled by the softwares
 `ImageMagick <http://www.imagemagick.org>`_,
 `GraphicsMagic <http://www.graphicsmagick.org/>`_
-or by default by the default
-`graphics library GD <http://libgd.bitbucket.org/>`_.
+or by default by standard `graphics library GD <http://libgd.bitbucket.org/>`_.
 Only ImageMagick and GraphicsMagic can handle multi-layers documents (Photoshop
 psd files, or non flat Tiff). However, they can not extract thumbnails and
 good sub-definitions for this type of document.
